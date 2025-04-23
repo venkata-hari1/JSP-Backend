@@ -308,3 +308,1354 @@
 2025-04-14 13:40:25 [INFO]: Server running on port 80
 2025-04-14 13:41:33 [INFO]: Connected to MongoDB
 2025-04-14 13:41:33 [INFO]: Server running on port 80
+2025-04-14 14:30:49 [WARN]: MongoDB disconnected
+2025-04-14 14:30:49 [INFO]: MongoDB reconnected
+2025-04-14 15:14:31 [WARN]: MongoDB disconnected
+2025-04-14 15:14:31 [INFO]: MongoDB reconnected
+2025-04-14 15:31:11 [INFO]: MongoDB reconnected
+2025-04-14 16:10:04 [WARN]: MongoDB disconnected
+2025-04-14 16:10:04 [INFO]: MongoDB reconnected
+2025-04-14 16:40:05 [INFO]: MongoDB reconnected
+2025-04-14 16:52:10 [INFO]: MongoDB reconnected
+2025-04-14 16:52:20 [WARN]: MongoDB disconnected
+2025-04-14 16:52:20 [INFO]: MongoDB reconnected
+2025-04-14 17:48:43 [WARN]: MongoDB disconnected
+2025-04-14 17:48:54 [INFO]: MongoDB reconnected
+2025-04-14 17:52:58 [WARN]: MongoDB disconnected
+2025-04-14 17:52:58 [INFO]: MongoDB reconnected
+2025-04-14 18:19:50 [WARN]: MongoDB disconnected
+2025-04-14 18:20:00 [INFO]: MongoDB reconnected
+2025-04-21 17:02:07 [INFO]: Connected to MongoDB
+2025-04-21 17:02:07 [INFO]: Server running on port 80
+2025-04-21 17:07:28 [INFO]: Connected to MongoDB
+2025-04-21 17:07:28 [INFO]: Server running on port 80
+2025-04-21 17:08:21 [INFO]: Connected to MongoDB
+2025-04-21 17:08:21 [INFO]: Server running on port 80
+2025-04-21 17:08:28 [INFO]: Connected to MongoDB
+2025-04-21 17:08:28 [INFO]: Server running on port 80
+2025-04-21 17:08:33 [INFO]: Connected to MongoDB
+2025-04-21 17:08:33 [INFO]: Server running on port 80
+2025-04-21 17:08:40 [INFO]: Connected to MongoDB
+2025-04-21 17:08:40 [INFO]: Server running on port 80
+2025-04-21 17:32:53 [INFO]: Connected to MongoDB
+2025-04-21 17:32:53 [INFO]: Server running on port 80
+2025-04-21 17:50:30 [INFO]: Connected to MongoDB
+2025-04-21 17:50:30 [INFO]: Server running on port 80
+2025-04-21 17:53:17 [INFO]: Connected to MongoDB
+2025-04-21 17:53:17 [INFO]: Server running on port 80
+2025-04-21 18:06:46 [INFO]: Connected to MongoDB
+2025-04-21 18:06:46 [INFO]: Server running on port 80
+2025-04-21 18:06:50 [INFO]: Connected to MongoDB
+2025-04-21 18:06:50 [INFO]: Server running on port 80
+2025-04-21 18:07:04 [INFO]: Connected to MongoDB
+2025-04-21 18:07:04 [INFO]: Server running on port 80
+2025-04-21 18:09:57 [INFO]: Connected to MongoDB
+2025-04-21 18:09:57 [INFO]: Server running on port 80
+2025-04-21 18:10:03 [INFO]: Connected to MongoDB
+2025-04-21 18:10:03 [INFO]: Server running on port 80
+2025-04-21 18:10:06 [INFO]: Connected to MongoDB
+2025-04-21 18:10:06 [INFO]: Server running on port 80
+2025-04-21 18:10:13 [INFO]: Connected to MongoDB
+2025-04-21 18:10:13 [INFO]: Server running on port 80
+2025-04-21 18:10:19 [INFO]: Connected to MongoDB
+2025-04-21 18:10:19 [INFO]: Server running on port 80
+2025-04-21 18:10:25 [INFO]: Connected to MongoDB
+2025-04-21 18:10:25 [INFO]: Server running on port 80
+2025-04-21 18:10:34 [INFO]: Connected to MongoDB
+2025-04-21 18:10:34 [INFO]: Server running on port 80
+2025-04-21 18:10:40 [INFO]: Connected to MongoDB
+2025-04-21 18:10:40 [INFO]: Server running on port 80
+2025-04-21 18:10:43 [INFO]: Connected to MongoDB
+2025-04-21 18:10:43 [INFO]: Server running on port 80
+2025-04-21 18:10:46 [INFO]: Connected to MongoDB
+2025-04-21 18:10:46 [INFO]: Server running on port 80
+2025-04-21 18:10:49 [INFO]: Connected to MongoDB
+2025-04-21 18:10:49 [INFO]: Server running on port 80
+2025-04-21 18:10:52 [INFO]: Connected to MongoDB
+2025-04-21 18:10:52 [INFO]: Server running on port 80
+2025-04-21 18:10:55 [INFO]: Connected to MongoDB
+2025-04-21 18:10:55 [INFO]: Server running on port 80
+2025-04-21 18:10:57 [INFO]: Connected to MongoDB
+2025-04-21 18:10:57 [INFO]: Server running on port 80
+2025-04-21 18:11:03 [INFO]: Connected to MongoDB
+2025-04-21 18:11:03 [INFO]: Server running on port 80
+2025-04-21 18:11:07 [INFO]: Connected to MongoDB
+2025-04-21 18:11:07 [INFO]: Server running on port 80
+2025-04-21 18:11:11 [INFO]: Connected to MongoDB
+2025-04-21 18:11:11 [INFO]: Server running on port 80
+2025-04-21 18:13:17 [INFO]: Connected to MongoDB
+2025-04-21 18:13:17 [INFO]: Server running on port 80
+2025-04-21 18:29:59 [INFO]: MongoDB reconnected
+2025-04-21 18:29:59 [INFO]: MongoDB reconnected
+2025-04-21 18:30:09 [WARN]: MongoDB disconnected
+2025-04-21 18:30:09 [INFO]: MongoDB reconnected
+2025-04-21 18:50:51 [WARN]: MongoDB disconnected
+2025-04-21 18:51:02 [INFO]: MongoDB reconnected
+2025-04-21 19:34:44 [INFO]: MongoDB reconnected
+2025-04-21 19:34:44 [INFO]: MongoDB reconnected
+2025-04-21 19:34:54 [WARN]: MongoDB disconnected
+2025-04-21 19:34:55 [INFO]: MongoDB reconnected
+2025-04-21 20:00:09 [WARN]: MongoDB disconnected
+2025-04-21 20:00:10 [INFO]: MongoDB reconnected
+2025-04-21 20:26:30 [INFO]: Connected to MongoDB
+2025-04-21 20:26:30 [INFO]: Server running on port 80
+2025-04-21 20:26:35 [INFO]: Connected to MongoDB
+2025-04-21 20:26:35 [INFO]: Server running on port 80
+2025-04-21 20:26:38 [INFO]: Connected to MongoDB
+2025-04-21 20:26:38 [INFO]: Server running on port 80
+2025-04-21 20:26:43 [INFO]: Connected to MongoDB
+2025-04-21 20:26:43 [INFO]: Server running on port 80
+2025-04-21 20:26:45 [INFO]: Connected to MongoDB
+2025-04-21 20:26:45 [INFO]: Server running on port 80
+2025-04-21 20:26:48 [INFO]: Connected to MongoDB
+2025-04-21 20:26:48 [INFO]: Server running on port 80
+2025-04-21 20:26:51 [INFO]: Connected to MongoDB
+2025-04-21 20:26:51 [INFO]: Server running on port 80
+2025-04-21 20:26:55 [INFO]: Connected to MongoDB
+2025-04-21 20:26:55 [INFO]: Server running on port 80
+2025-04-21 20:26:59 [INFO]: Connected to MongoDB
+2025-04-21 20:26:59 [INFO]: Server running on port 80
+2025-04-21 20:27:03 [INFO]: Connected to MongoDB
+2025-04-21 20:27:03 [INFO]: Server running on port 80
+2025-04-21 20:27:08 [INFO]: Connected to MongoDB
+2025-04-21 20:27:08 [INFO]: Server running on port 80
+2025-04-21 20:27:11 [INFO]: Connected to MongoDB
+2025-04-21 20:27:11 [INFO]: Server running on port 80
+2025-04-21 20:27:16 [INFO]: Connected to MongoDB
+2025-04-21 20:27:16 [INFO]: Server running on port 80
+2025-04-21 20:27:19 [INFO]: Connected to MongoDB
+2025-04-21 20:27:19 [INFO]: Server running on port 80
+2025-04-21 20:27:22 [INFO]: Connected to MongoDB
+2025-04-21 20:27:22 [INFO]: Server running on port 80
+2025-04-21 20:27:24 [INFO]: Connected to MongoDB
+2025-04-21 20:27:24 [INFO]: Server running on port 80
+2025-04-21 20:27:27 [INFO]: Connected to MongoDB
+2025-04-21 20:27:27 [INFO]: Server running on port 80
+2025-04-21 20:27:30 [INFO]: Connected to MongoDB
+2025-04-21 20:27:30 [INFO]: Server running on port 80
+2025-04-21 20:27:33 [INFO]: Connected to MongoDB
+2025-04-21 20:27:33 [INFO]: Server running on port 80
+2025-04-21 20:27:36 [INFO]: Connected to MongoDB
+2025-04-21 20:27:36 [INFO]: Server running on port 80
+2025-04-21 20:27:38 [INFO]: Connected to MongoDB
+2025-04-21 20:27:38 [INFO]: Server running on port 80
+2025-04-21 20:27:41 [INFO]: Connected to MongoDB
+2025-04-21 20:27:41 [INFO]: Server running on port 80
+2025-04-21 20:27:44 [INFO]: Connected to MongoDB
+2025-04-21 20:27:44 [INFO]: Server running on port 80
+2025-04-21 20:27:47 [INFO]: Connected to MongoDB
+2025-04-21 20:27:47 [INFO]: Server running on port 80
+2025-04-21 20:27:49 [INFO]: Connected to MongoDB
+2025-04-21 20:27:49 [INFO]: Server running on port 80
+2025-04-21 20:27:52 [INFO]: Connected to MongoDB
+2025-04-21 20:27:52 [INFO]: Server running on port 80
+2025-04-21 20:27:55 [INFO]: Connected to MongoDB
+2025-04-21 20:27:55 [INFO]: Server running on port 80
+2025-04-21 20:27:57 [INFO]: Connected to MongoDB
+2025-04-21 20:27:57 [INFO]: Server running on port 80
+2025-04-21 20:28:00 [INFO]: Connected to MongoDB
+2025-04-21 20:28:00 [INFO]: Server running on port 80
+2025-04-21 20:28:05 [INFO]: Connected to MongoDB
+2025-04-21 20:28:05 [INFO]: Server running on port 80
+2025-04-21 20:28:08 [INFO]: Connected to MongoDB
+2025-04-21 20:28:08 [INFO]: Server running on port 80
+2025-04-21 20:28:11 [INFO]: Connected to MongoDB
+2025-04-21 20:28:11 [INFO]: Server running on port 80
+2025-04-21 20:28:14 [INFO]: Connected to MongoDB
+2025-04-21 20:28:14 [INFO]: Server running on port 80
+2025-04-21 20:28:21 [INFO]: Connected to MongoDB
+2025-04-21 20:28:21 [INFO]: Server running on port 80
+2025-04-21 20:28:23 [INFO]: Connected to MongoDB
+2025-04-21 20:28:23 [INFO]: Server running on port 80
+2025-04-21 20:28:28 [INFO]: Connected to MongoDB
+2025-04-21 20:28:28 [INFO]: Server running on port 80
+2025-04-21 20:28:32 [INFO]: Connected to MongoDB
+2025-04-21 20:28:32 [INFO]: Server running on port 80
+2025-04-21 20:28:34 [INFO]: Connected to MongoDB
+2025-04-21 20:28:34 [INFO]: Server running on port 80
+2025-04-21 20:28:38 [INFO]: Connected to MongoDB
+2025-04-21 20:28:38 [INFO]: Server running on port 80
+2025-04-21 20:28:41 [INFO]: Connected to MongoDB
+2025-04-21 20:28:41 [INFO]: Server running on port 80
+2025-04-21 20:28:45 [INFO]: Connected to MongoDB
+2025-04-21 20:28:45 [INFO]: Server running on port 80
+2025-04-21 20:28:48 [INFO]: Connected to MongoDB
+2025-04-21 20:28:48 [INFO]: Server running on port 80
+2025-04-21 20:28:53 [INFO]: Connected to MongoDB
+2025-04-21 20:28:53 [INFO]: Server running on port 80
+2025-04-21 20:28:57 [INFO]: Connected to MongoDB
+2025-04-21 20:28:57 [INFO]: Server running on port 80
+2025-04-21 20:28:59 [INFO]: Connected to MongoDB
+2025-04-21 20:28:59 [INFO]: Server running on port 80
+2025-04-21 20:29:04 [INFO]: Connected to MongoDB
+2025-04-21 20:29:04 [INFO]: Server running on port 80
+2025-04-21 20:29:08 [INFO]: Connected to MongoDB
+2025-04-21 20:29:08 [INFO]: Server running on port 80
+2025-04-21 20:29:11 [INFO]: Connected to MongoDB
+2025-04-21 20:29:12 [INFO]: Server running on port 80
+2025-04-21 20:29:14 [INFO]: Connected to MongoDB
+2025-04-21 20:29:14 [INFO]: Server running on port 80
+2025-04-21 20:29:28 [INFO]: Connected to MongoDB
+2025-04-21 20:29:28 [INFO]: Server running on port 80
+2025-04-21 20:29:33 [INFO]: Connected to MongoDB
+2025-04-21 20:29:33 [INFO]: Server running on port 80
+2025-04-21 20:29:38 [INFO]: Connected to MongoDB
+2025-04-21 20:29:38 [INFO]: Server running on port 80
+2025-04-21 20:29:41 [INFO]: Connected to MongoDB
+2025-04-21 20:29:41 [INFO]: Server running on port 80
+2025-04-21 20:29:44 [INFO]: Connected to MongoDB
+2025-04-21 20:29:44 [INFO]: Server running on port 80
+2025-04-21 20:29:48 [INFO]: Connected to MongoDB
+2025-04-21 20:29:48 [INFO]: Server running on port 80
+2025-04-21 20:29:51 [INFO]: Connected to MongoDB
+2025-04-21 20:29:51 [INFO]: Server running on port 80
+2025-04-21 20:29:54 [INFO]: Connected to MongoDB
+2025-04-21 20:29:54 [INFO]: Server running on port 80
+2025-04-21 20:30:09 [INFO]: Connected to MongoDB
+2025-04-21 20:30:09 [INFO]: Server running on port 80
+2025-04-21 20:30:21 [INFO]: Connected to MongoDB
+2025-04-21 20:30:21 [INFO]: Server running on port 80
+2025-04-21 20:30:32 [INFO]: Connected to MongoDB
+2025-04-21 20:30:32 [INFO]: Server running on port 80
+2025-04-21 20:30:39 [INFO]: Connected to MongoDB
+2025-04-21 20:30:39 [INFO]: Server running on port 80
+2025-04-21 20:30:44 [INFO]: Connected to MongoDB
+2025-04-21 20:30:44 [INFO]: Server running on port 80
+2025-04-21 20:31:18 [INFO]: Connected to MongoDB
+2025-04-21 20:31:18 [INFO]: Server running on port 80
+2025-04-21 20:44:51 [INFO]: MongoDB reconnected
+2025-04-21 20:45:02 [WARN]: MongoDB disconnected
+2025-04-21 20:45:02 [INFO]: MongoDB reconnected
+2025-04-21 21:43:30 [INFO]: MongoDB reconnected
+2025-04-21 21:43:30 [INFO]: MongoDB reconnected
+2025-04-21 22:01:07 [WARN]: MongoDB disconnected
+2025-04-21 22:01:07 [INFO]: MongoDB reconnected
+2025-04-22 11:41:40 [INFO]: Connected to MongoDB
+2025-04-22 11:41:40 [INFO]: Server running on port 80
+2025-04-22 11:44:49 [INFO]: Connected to MongoDB
+2025-04-22 11:44:49 [INFO]: Server running on port 80
+2025-04-22 11:45:14 [INFO]: Connected to MongoDB
+2025-04-22 11:45:14 [INFO]: Server running on port 80
+2025-04-22 11:45:22 [INFO]: Connected to MongoDB
+2025-04-22 11:45:22 [INFO]: Server running on port 80
+2025-04-22 11:45:27 [INFO]: Connected to MongoDB
+2025-04-22 11:45:27 [INFO]: Server running on port 80
+2025-04-22 11:45:36 [INFO]: Connected to MongoDB
+2025-04-22 11:45:36 [INFO]: Server running on port 80
+2025-04-22 12:03:38 [INFO]: Connected to MongoDB
+2025-04-22 12:03:38 [INFO]: Server running on port 80
+2025-04-22 12:03:42 [INFO]: Connected to MongoDB
+2025-04-22 12:03:42 [INFO]: Server running on port 80
+2025-04-22 12:03:45 [INFO]: Connected to MongoDB
+2025-04-22 12:03:45 [INFO]: Server running on port 80
+2025-04-22 12:03:50 [INFO]: Connected to MongoDB
+2025-04-22 12:03:50 [INFO]: Server running on port 80
+2025-04-22 12:03:59 [INFO]: Connected to MongoDB
+2025-04-22 12:03:59 [INFO]: Server running on port 80
+2025-04-22 12:04:34 [INFO]: Connected to MongoDB
+2025-04-22 12:04:34 [INFO]: Server running on port 80
+2025-04-22 12:04:42 [INFO]: Connected to MongoDB
+2025-04-22 12:04:42 [INFO]: Server running on port 80
+2025-04-22 12:04:45 [INFO]: Connected to MongoDB
+2025-04-22 12:04:45 [INFO]: Server running on port 80
+2025-04-22 12:04:55 [INFO]: Connected to MongoDB
+2025-04-22 12:04:55 [INFO]: Server running on port 80
+2025-04-22 12:05:35 [INFO]: Connected to MongoDB
+2025-04-22 12:05:35 [INFO]: Server running on port 80
+2025-04-22 12:05:52 [INFO]: Connected to MongoDB
+2025-04-22 12:05:52 [INFO]: Server running on port 80
+2025-04-22 12:11:51 [INFO]: Connected to MongoDB
+2025-04-22 12:11:51 [INFO]: Server running on port 80
+2025-04-22 12:12:04 [INFO]: Connected to MongoDB
+2025-04-22 12:12:04 [INFO]: Server running on port 80
+2025-04-22 12:12:09 [INFO]: Connected to MongoDB
+2025-04-22 12:12:09 [INFO]: Server running on port 80
+2025-04-22 12:12:21 [INFO]: Connected to MongoDB
+2025-04-22 12:12:21 [INFO]: Server running on port 80
+2025-04-22 12:12:23 [INFO]: Connected to MongoDB
+2025-04-22 12:12:23 [INFO]: Server running on port 80
+2025-04-22 12:12:37 [INFO]: Connected to MongoDB
+2025-04-22 12:12:37 [INFO]: Server running on port 80
+2025-04-22 12:13:33 [INFO]: Connected to MongoDB
+2025-04-22 12:13:33 [INFO]: Server running on port 80
+2025-04-22 12:13:44 [INFO]: Connected to MongoDB
+2025-04-22 12:13:44 [INFO]: Server running on port 80
+2025-04-22 12:13:52 [INFO]: Connected to MongoDB
+2025-04-22 12:13:52 [INFO]: Server running on port 80
+2025-04-22 12:14:02 [INFO]: Connected to MongoDB
+2025-04-22 12:14:02 [INFO]: Server running on port 80
+2025-04-22 12:14:09 [INFO]: Connected to MongoDB
+2025-04-22 12:14:09 [INFO]: Server running on port 80
+2025-04-22 12:14:19 [INFO]: Connected to MongoDB
+2025-04-22 12:14:19 [INFO]: Server running on port 80
+2025-04-22 12:14:23 [INFO]: Connected to MongoDB
+2025-04-22 12:14:23 [INFO]: Server running on port 80
+2025-04-22 12:14:27 [INFO]: Connected to MongoDB
+2025-04-22 12:14:27 [INFO]: Server running on port 80
+2025-04-22 12:15:25 [INFO]: Connected to MongoDB
+2025-04-22 12:15:25 [INFO]: Server running on port 80
+2025-04-22 12:16:30 [INFO]: Connected to MongoDB
+2025-04-22 12:16:30 [INFO]: Server running on port 80
+2025-04-22 12:16:45 [INFO]: Connected to MongoDB
+2025-04-22 12:16:45 [INFO]: Server running on port 80
+2025-04-22 12:16:51 [INFO]: Connected to MongoDB
+2025-04-22 12:16:51 [INFO]: Server running on port 80
+2025-04-22 12:20:21 [INFO]: Connected to MongoDB
+2025-04-22 12:20:21 [INFO]: Server running on port 80
+2025-04-22 12:20:41 [INFO]: Connected to MongoDB
+2025-04-22 12:20:41 [INFO]: Server running on port 80
+2025-04-22 12:20:51 [INFO]: Connected to MongoDB
+2025-04-22 12:20:51 [INFO]: Server running on port 80
+2025-04-22 12:21:35 [INFO]: Connected to MongoDB
+2025-04-22 12:21:35 [INFO]: Server running on port 80
+2025-04-22 12:21:39 [INFO]: Connected to MongoDB
+2025-04-22 12:21:39 [INFO]: Server running on port 80
+2025-04-22 13:20:32 [WARN]: MongoDB disconnected
+2025-04-22 13:21:02 [INFO]: MongoDB reconnected
+2025-04-22 13:27:34 [WARN]: MongoDB disconnected
+2025-04-22 13:27:43 [INFO]: MongoDB reconnected
+2025-04-22 14:33:23 [INFO]: MongoDB reconnected
+2025-04-22 15:18:14 [INFO]: Connected to MongoDB
+2025-04-22 15:18:14 [INFO]: Server running on port 80
+2025-04-22 15:20:03 [INFO]: Connected to MongoDB
+2025-04-22 15:20:03 [INFO]: Server running on port 80
+2025-04-22 15:20:15 [INFO]: Connected to MongoDB
+2025-04-22 15:20:15 [INFO]: Server running on port 80
+2025-04-22 15:20:33 [INFO]: Connected to MongoDB
+2025-04-22 15:20:33 [INFO]: Server running on port 80
+2025-04-22 15:23:08 [INFO]: MongoDB reconnected
+2025-04-22 15:23:08 [INFO]: MongoDB reconnected
+2025-04-22 15:24:40 [WARN]: MongoDB disconnected
+2025-04-22 15:25:02 [INFO]: MongoDB reconnected
+2025-04-22 15:25:46 [INFO]: Connected to MongoDB
+2025-04-22 15:25:46 [INFO]: Server running on port 80
+2025-04-22 15:26:00 [INFO]: Connected to MongoDB
+2025-04-22 15:26:00 [INFO]: Server running on port 80
+2025-04-22 15:26:05 [INFO]: Connected to MongoDB
+2025-04-22 15:26:05 [INFO]: Server running on port 80
+2025-04-22 15:26:24 [INFO]: Connected to MongoDB
+2025-04-22 15:26:24 [INFO]: Server running on port 80
+2025-04-22 15:27:28 [INFO]: Connected to MongoDB
+2025-04-22 15:27:28 [INFO]: Server running on port 80
+2025-04-22 15:27:43 [INFO]: Connected to MongoDB
+2025-04-22 15:27:43 [INFO]: Server running on port 80
+2025-04-22 15:27:53 [INFO]: Connected to MongoDB
+2025-04-22 15:27:53 [INFO]: Server running on port 80
+2025-04-22 15:28:15 [INFO]: Connected to MongoDB
+2025-04-22 15:28:15 [INFO]: Server running on port 80
+2025-04-22 15:28:20 [INFO]: Connected to MongoDB
+2025-04-22 15:28:20 [INFO]: Server running on port 80
+2025-04-22 15:28:25 [INFO]: Connected to MongoDB
+2025-04-22 15:28:25 [INFO]: Server running on port 80
+2025-04-22 15:29:45 [INFO]: Connected to MongoDB
+2025-04-22 15:29:45 [INFO]: Server running on port 80
+2025-04-22 15:30:20 [INFO]: Connected to MongoDB
+2025-04-22 15:30:20 [INFO]: Server running on port 80
+2025-04-22 15:30:29 [INFO]: Connected to MongoDB
+2025-04-22 15:30:29 [INFO]: Server running on port 80
+2025-04-22 15:32:04 [INFO]: Connected to MongoDB
+2025-04-22 15:32:04 [INFO]: Server running on port 80
+2025-04-22 15:53:01 [INFO]: MongoDB reconnected
+2025-04-22 15:55:25 [WARN]: MongoDB disconnected
+2025-04-22 15:55:25 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:55:25 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:55:25 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:55:42 [WARN]: MongoDB disconnected
+2025-04-22 15:55:42 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:55:42 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:55:42 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:36 [WARN]: MongoDB disconnected
+2025-04-22 15:56:36 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:36 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:36 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:50 [WARN]: MongoDB disconnected
+2025-04-22 15:56:50 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:50 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:50 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:33 [WARN]: MongoDB disconnected
+2025-04-22 15:57:33 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:33 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:33 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:54 [WARN]: MongoDB disconnected
+2025-04-22 15:57:54 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:54 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:54 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:58 [WARN]: MongoDB disconnected
+2025-04-22 15:57:58 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:58 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:58 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:01 [WARN]: MongoDB disconnected
+2025-04-22 15:58:01 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:01 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:01 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:10 [WARN]: MongoDB disconnected
+2025-04-22 15:58:10 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:10 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:10 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:14 [WARN]: MongoDB disconnected
+2025-04-22 15:58:14 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:14 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:14 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:24 [WARN]: MongoDB disconnected
+2025-04-22 15:58:24 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:24 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:24 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 16:04:02 [INFO]: Connected to MongoDB
+2025-04-22 16:04:02 [INFO]: Server running on port 80
+2025-04-22 16:04:16 [INFO]: Connected to MongoDB
+2025-04-22 16:04:16 [INFO]: Server running on port 80
+2025-04-22 16:04:23 [INFO]: Connected to MongoDB
+2025-04-22 16:04:23 [INFO]: Server running on port 80
+2025-04-22 16:04:36 [INFO]: Connected to MongoDB
+2025-04-22 16:04:36 [INFO]: Server running on port 80
+2025-04-22 16:04:50 [INFO]: Connected to MongoDB
+2025-04-22 16:04:50 [INFO]: Server running on port 80
+2025-04-22 16:05:14 [INFO]: Connected to MongoDB
+2025-04-22 16:05:14 [INFO]: Server running on port 80
+2025-04-22 16:20:42 [INFO]: MongoDB reconnected
+2025-04-22 16:20:42 [INFO]: MongoDB reconnected
+2025-04-22 16:20:53 [WARN]: MongoDB disconnected
+2025-04-22 16:20:54 [INFO]: MongoDB reconnected
+2025-04-22 16:41:43 [INFO]: MongoDB reconnected
+2025-04-22 16:41:43 [INFO]: MongoDB reconnected
+2025-04-22 16:41:52 [WARN]: MongoDB disconnected
+2025-04-22 16:41:53 [INFO]: MongoDB reconnected
+2025-04-22 16:42:31 [INFO]: Connected to MongoDB
+2025-04-22 16:42:31 [INFO]: Server running on port 80
+2025-04-22 16:51:30 [INFO]: Connected to MongoDB
+2025-04-22 16:51:30 [INFO]: Server running on port 80
+2025-04-22 16:57:31 [INFO]: Connected to MongoDB
+2025-04-22 16:57:31 [INFO]: Server running on port 80
+2025-04-22 16:58:21 [INFO]: Connected to MongoDB
+2025-04-22 16:58:21 [INFO]: Server running on port 80
+2025-04-22 16:59:09 [INFO]: Connected to MongoDB
+2025-04-22 16:59:09 [INFO]: Server running on port 80
+2025-04-22 16:59:19 [INFO]: Connected to MongoDB
+2025-04-22 16:59:19 [INFO]: Server running on port 80
+2025-04-22 17:14:45 [WARN]: MongoDB disconnected
+2025-04-22 17:14:46 [INFO]: MongoDB reconnected
+2025-04-22 17:23:18 [WARN]: MongoDB disconnected
+2025-04-22 17:27:28 [INFO]: MongoDB reconnected
+2025-04-22 17:45:41 [INFO]: MongoDB reconnected
+2025-04-22 17:45:41 [INFO]: MongoDB reconnected
+2025-04-22 17:45:52 [WARN]: MongoDB disconnected
+2025-04-22 17:45:52 [INFO]: MongoDB reconnected
+2025-04-22 17:55:17 [INFO]: MongoDB reconnected
+2025-04-22 17:56:47 [WARN]: MongoDB disconnected
+2025-04-22 17:56:50 [INFO]: MongoDB reconnected
+2025-04-22 20:09:40 [INFO]: MongoDB reconnected
+2025-04-22 20:24:11 [WARN]: MongoDB disconnected
+2025-04-22 20:24:11 [INFO]: MongoDB reconnected
+2025-04-22 20:28:06 [INFO]: MongoDB reconnected
+2025-04-22 20:28:06 [INFO]: MongoDB reconnected
+2025-04-22 20:28:16 [WARN]: MongoDB disconnected
+2025-04-22 20:28:17 [INFO]: MongoDB reconnected
+2025-04-22 20:44:26 [WARN]: MongoDB disconnected
+2025-04-22 20:44:37 [INFO]: MongoDB reconnected
+2025-04-22 20:51:51 [INFO]: Connected to MongoDB
+2025-04-22 20:51:51 [INFO]: Server running on port 80
+2025-04-22 20:52:00 [INFO]: Connected to MongoDB
+2025-04-22 20:52:00 [INFO]: Server running on port 80
+2025-04-22 20:52:12 [INFO]: Connected to MongoDB
+2025-04-22 20:52:12 [INFO]: Server running on port 80
+2025-04-22 20:52:17 [INFO]: Connected to MongoDB
+2025-04-22 20:52:17 [INFO]: Server running on port 80
+2025-04-22 20:52:28 [INFO]: Connected to MongoDB
+2025-04-22 20:52:28 [INFO]: Server running on port 80
+2025-04-22 20:52:38 [INFO]: Connected to MongoDB
+2025-04-22 20:52:38 [INFO]: Server running on port 80
+2025-04-22 20:52:49 [INFO]: Connected to MongoDB
+2025-04-22 20:52:49 [INFO]: Server running on port 80
+2025-04-22 20:52:52 [INFO]: Connected to MongoDB
+2025-04-22 20:52:52 [INFO]: Server running on port 80
+2025-04-22 20:53:03 [INFO]: Connected to MongoDB
+2025-04-22 20:53:03 [INFO]: Server running on port 80
+2025-04-22 20:53:20 [INFO]: Connected to MongoDB
+2025-04-22 20:53:20 [INFO]: Server running on port 80
+2025-04-22 20:53:25 [INFO]: Connected to MongoDB
+2025-04-22 20:53:25 [INFO]: Server running on port 80
+2025-04-22 20:53:30 [INFO]: Connected to MongoDB
+2025-04-22 20:53:30 [INFO]: Server running on port 80
+2025-04-22 20:53:43 [INFO]: Connected to MongoDB
+2025-04-22 20:53:43 [INFO]: Server running on port 80
+2025-04-22 20:53:57 [INFO]: Connected to MongoDB
+2025-04-22 20:53:57 [INFO]: Server running on port 80
+2025-04-22 20:54:04 [INFO]: Connected to MongoDB
+2025-04-22 20:54:04 [INFO]: Server running on port 80
+2025-04-22 20:54:08 [INFO]: Connected to MongoDB
+2025-04-22 20:54:08 [INFO]: Server running on port 80
+2025-04-22 20:54:22 [INFO]: Connected to MongoDB
+2025-04-22 20:54:22 [INFO]: Server running on port 80
+2025-04-22 20:54:32 [INFO]: Connected to MongoDB
+2025-04-22 20:54:32 [INFO]: Server running on port 80
+2025-04-22 20:54:41 [INFO]: Connected to MongoDB
+2025-04-22 20:54:41 [INFO]: Server running on port 80
+2025-04-22 20:55:15 [INFO]: Connected to MongoDB
+2025-04-22 20:55:15 [INFO]: Server running on port 80
+2025-04-22 20:55:20 [INFO]: Connected to MongoDB
+2025-04-22 20:55:20 [INFO]: Server running on port 80
+2025-04-22 20:55:27 [INFO]: Connected to MongoDB
+2025-04-22 20:55:27 [INFO]: Server running on port 80
+2025-04-22 20:55:34 [INFO]: Connected to MongoDB
+2025-04-22 20:55:34 [INFO]: Server running on port 80
+2025-04-22 20:55:39 [INFO]: Connected to MongoDB
+2025-04-22 20:55:39 [INFO]: Server running on port 80
+2025-04-22 20:55:52 [INFO]: Connected to MongoDB
+2025-04-22 20:55:52 [INFO]: Server running on port 80
+2025-04-22 20:56:00 [INFO]: Connected to MongoDB
+2025-04-22 20:56:00 [INFO]: Server running on port 80
+2025-04-22 20:56:19 [INFO]: Connected to MongoDB
+2025-04-22 20:56:19 [INFO]: Server running on port 80
+2025-04-22 20:56:28 [INFO]: Connected to MongoDB
+2025-04-22 20:56:28 [INFO]: Server running on port 80
+2025-04-22 20:56:31 [INFO]: Connected to MongoDB
+2025-04-22 20:56:31 [INFO]: Server running on port 80
+2025-04-22 20:56:53 [INFO]: Connected to MongoDB
+2025-04-22 20:56:53 [INFO]: Server running on port 80
+2025-04-22 20:57:26 [INFO]: Connected to MongoDB
+2025-04-22 20:57:26 [INFO]: Server running on port 80
+2025-04-22 20:57:33 [INFO]: Connected to MongoDB
+2025-04-22 20:57:33 [INFO]: Server running on port 80
+2025-04-22 20:57:36 [INFO]: Connected to MongoDB
+2025-04-22 20:57:36 [INFO]: Server running on port 80
+2025-04-22 20:57:46 [INFO]: Connected to MongoDB
+2025-04-22 20:57:46 [INFO]: Server running on port 80
+2025-04-23 09:47:31 [INFO]: Connected to MongoDB
+2025-04-23 09:47:31 [INFO]: Server running on port 80
+2025-04-23 09:48:27 [INFO]: Connected to MongoDB
+2025-04-23 09:48:27 [INFO]: Server running on port 80
+2025-04-23 09:49:01 [INFO]: Connected to MongoDB
+2025-04-23 09:49:01 [INFO]: Server running on port 80
+2025-04-23 09:49:13 [INFO]: Connected to MongoDB
+2025-04-23 09:49:13 [INFO]: Server running on port 80
+2025-04-23 09:49:45 [INFO]: Connected to MongoDB
+2025-04-23 09:49:45 [INFO]: Server running on port 80
+2025-04-23 09:49:49 [INFO]: Connected to MongoDB
+2025-04-23 09:49:49 [INFO]: Server running on port 80
+2025-04-23 09:49:54 [INFO]: Connected to MongoDB
+2025-04-23 09:49:54 [INFO]: Server running on port 80
+2025-04-23 09:50:28 [INFO]: Connected to MongoDB
+2025-04-23 09:50:28 [INFO]: Server running on port 80
+2025-04-23 09:50:34 [INFO]: Connected to MongoDB
+2025-04-23 09:50:34 [INFO]: Server running on port 80
+2025-04-23 09:50:40 [INFO]: Connected to MongoDB
+2025-04-23 09:50:40 [INFO]: Server running on port 80
+2025-04-23 09:50:48 [INFO]: Connected to MongoDB
+2025-04-23 09:50:48 [INFO]: Server running on port 80
+2025-04-23 09:50:55 [INFO]: Connected to MongoDB
+2025-04-23 09:50:55 [INFO]: Server running on port 80
+2025-04-23 09:51:13 [INFO]: Connected to MongoDB
+2025-04-23 09:51:13 [INFO]: Server running on port 80
+2025-04-23 09:51:19 [INFO]: Connected to MongoDB
+2025-04-23 09:51:19 [INFO]: Server running on port 80
+2025-04-23 09:51:24 [INFO]: Connected to MongoDB
+2025-04-23 09:51:24 [INFO]: Server running on port 80
+2025-04-23 09:51:33 [INFO]: Connected to MongoDB
+2025-04-23 09:51:33 [INFO]: Server running on port 80
+2025-04-23 09:51:38 [INFO]: Connected to MongoDB
+2025-04-23 09:51:38 [INFO]: Server running on port 80
+2025-04-23 09:51:45 [INFO]: Connected to MongoDB
+2025-04-23 09:51:45 [INFO]: Server running on port 80
+2025-04-23 09:51:50 [INFO]: Connected to MongoDB
+2025-04-23 09:51:50 [INFO]: Server running on port 80
+2025-04-23 09:51:57 [INFO]: Connected to MongoDB
+2025-04-23 09:51:57 [INFO]: Server running on port 80
+2025-04-23 09:52:01 [INFO]: Connected to MongoDB
+2025-04-23 09:52:01 [INFO]: Server running on port 80
+2025-04-23 09:52:04 [INFO]: Connected to MongoDB
+2025-04-23 09:52:04 [INFO]: Server running on port 80
+2025-04-23 09:52:11 [INFO]: Connected to MongoDB
+2025-04-23 09:52:11 [INFO]: Server running on port 80
+2025-04-23 09:52:19 [INFO]: Connected to MongoDB
+2025-04-23 09:52:19 [INFO]: Server running on port 80
+2025-04-23 09:52:24 [INFO]: Connected to MongoDB
+2025-04-23 09:52:24 [INFO]: Server running on port 80
+2025-04-23 09:52:28 [INFO]: Connected to MongoDB
+2025-04-23 09:52:28 [INFO]: Server running on port 80
+2025-04-23 09:52:34 [INFO]: Connected to MongoDB
+2025-04-23 09:52:34 [INFO]: Server running on port 80
+2025-04-23 09:52:40 [INFO]: Connected to MongoDB
+2025-04-23 09:52:40 [INFO]: Server running on port 80
+2025-04-23 09:52:43 [INFO]: Connected to MongoDB
+2025-04-23 09:52:43 [INFO]: Server running on port 80
+2025-04-23 09:52:48 [INFO]: Connected to MongoDB
+2025-04-23 09:52:48 [INFO]: Server running on port 80
+2025-04-23 09:53:04 [INFO]: Connected to MongoDB
+2025-04-23 09:53:04 [INFO]: Server running on port 80
+2025-04-23 09:53:15 [INFO]: Connected to MongoDB
+2025-04-23 09:53:15 [INFO]: Server running on port 80
+2025-04-23 09:53:36 [INFO]: Connected to MongoDB
+2025-04-23 09:53:36 [INFO]: Server running on port 80
+2025-04-23 09:53:45 [INFO]: Connected to MongoDB
+2025-04-23 09:53:45 [INFO]: Server running on port 80
+2025-04-23 09:53:48 [INFO]: Connected to MongoDB
+2025-04-23 09:53:48 [INFO]: Server running on port 80
+2025-04-23 09:54:00 [INFO]: Connected to MongoDB
+2025-04-23 09:54:00 [INFO]: Server running on port 80
+2025-04-23 09:54:18 [INFO]: Connected to MongoDB
+2025-04-23 09:54:18 [INFO]: Server running on port 80
+2025-04-23 09:54:21 [INFO]: Connected to MongoDB
+2025-04-23 09:54:21 [INFO]: Server running on port 80
+2025-04-23 09:54:25 [INFO]: Connected to MongoDB
+2025-04-23 09:54:25 [INFO]: Server running on port 80
+2025-04-23 09:54:31 [INFO]: Connected to MongoDB
+2025-04-23 09:54:31 [INFO]: Server running on port 80
+2025-04-23 09:54:36 [INFO]: Connected to MongoDB
+2025-04-23 09:54:36 [INFO]: Server running on port 80
+2025-04-23 09:54:42 [INFO]: Connected to MongoDB
+2025-04-23 09:54:42 [INFO]: Server running on port 80
+2025-04-23 09:54:47 [INFO]: Connected to MongoDB
+2025-04-23 09:54:47 [INFO]: Server running on port 80
+2025-04-23 09:54:52 [INFO]: Connected to MongoDB
+2025-04-23 09:54:52 [INFO]: Server running on port 80
+2025-04-23 09:55:01 [INFO]: Connected to MongoDB
+2025-04-23 09:55:01 [INFO]: Server running on port 80
+2025-04-23 09:55:09 [INFO]: Connected to MongoDB
+2025-04-23 09:55:09 [INFO]: Server running on port 80
+2025-04-23 09:55:16 [INFO]: Connected to MongoDB
+2025-04-23 09:55:16 [INFO]: Server running on port 80
+2025-04-23 09:55:25 [INFO]: Connected to MongoDB
+2025-04-23 09:55:25 [INFO]: Server running on port 80
+2025-04-23 09:55:33 [INFO]: Connected to MongoDB
+2025-04-23 09:55:33 [INFO]: Server running on port 80
+2025-04-23 09:55:38 [INFO]: Connected to MongoDB
+2025-04-23 09:55:38 [INFO]: Server running on port 80
+2025-04-23 09:55:42 [INFO]: Connected to MongoDB
+2025-04-23 09:55:42 [INFO]: Server running on port 80
+2025-04-23 09:55:59 [INFO]: Connected to MongoDB
+2025-04-23 09:55:59 [INFO]: Server running on port 80
+2025-04-23 09:56:05 [INFO]: Connected to MongoDB
+2025-04-23 09:56:05 [INFO]: Server running on port 80
+2025-04-23 09:56:08 [INFO]: Connected to MongoDB
+2025-04-23 09:56:08 [INFO]: Server running on port 80
+2025-04-23 09:56:13 [INFO]: Connected to MongoDB
+2025-04-23 09:56:13 [INFO]: Server running on port 80
+2025-04-23 09:56:17 [INFO]: Connected to MongoDB
+2025-04-23 09:56:17 [INFO]: Server running on port 80
+2025-04-23 09:56:27 [INFO]: Connected to MongoDB
+2025-04-23 09:56:27 [INFO]: Server running on port 80
+2025-04-23 09:56:34 [INFO]: Connected to MongoDB
+2025-04-23 09:56:34 [INFO]: Server running on port 80
+2025-04-23 09:56:44 [INFO]: Connected to MongoDB
+2025-04-23 09:56:44 [INFO]: Server running on port 80
+2025-04-23 09:56:54 [INFO]: Connected to MongoDB
+2025-04-23 09:56:54 [INFO]: Server running on port 80
+2025-04-23 09:56:59 [INFO]: Connected to MongoDB
+2025-04-23 09:56:59 [INFO]: Server running on port 80
+2025-04-23 09:57:04 [INFO]: Connected to MongoDB
+2025-04-23 09:57:04 [INFO]: Server running on port 80
+2025-04-23 09:57:10 [INFO]: Connected to MongoDB
+2025-04-23 09:57:10 [INFO]: Server running on port 80
+2025-04-23 09:57:13 [INFO]: Connected to MongoDB
+2025-04-23 09:57:13 [INFO]: Server running on port 80
+2025-04-23 09:57:16 [INFO]: Connected to MongoDB
+2025-04-23 09:57:16 [INFO]: Server running on port 80
+2025-04-23 09:57:24 [INFO]: Connected to MongoDB
+2025-04-23 09:57:24 [INFO]: Server running on port 80
+2025-04-23 09:57:35 [INFO]: Connected to MongoDB
+2025-04-23 09:57:35 [INFO]: Server running on port 80
+2025-04-23 09:57:39 [INFO]: Connected to MongoDB
+2025-04-23 09:57:39 [INFO]: Server running on port 80
+2025-04-23 09:57:55 [INFO]: Connected to MongoDB
+2025-04-23 09:57:55 [INFO]: Server running on port 80
+2025-04-23 09:58:04 [INFO]: Connected to MongoDB
+2025-04-23 09:58:04 [INFO]: Server running on port 80
+2025-04-23 09:58:17 [INFO]: Connected to MongoDB
+2025-04-23 09:58:17 [INFO]: Server running on port 80
+2025-04-23 09:58:21 [INFO]: Connected to MongoDB
+2025-04-23 09:58:21 [INFO]: Server running on port 80
+2025-04-23 09:58:27 [INFO]: Connected to MongoDB
+2025-04-23 09:58:27 [INFO]: Server running on port 80
+2025-04-23 09:58:41 [INFO]: Connected to MongoDB
+2025-04-23 09:58:41 [INFO]: Server running on port 80
+2025-04-23 09:58:48 [INFO]: Connected to MongoDB
+2025-04-23 09:58:48 [INFO]: Server running on port 80
+2025-04-23 09:59:42 [INFO]: Connected to MongoDB
+2025-04-23 09:59:42 [INFO]: Server running on port 80
+2025-04-23 10:17:35 [INFO]: MongoDB reconnected
+2025-04-23 10:19:23 [INFO]: Connected to MongoDB
+2025-04-23 10:19:23 [INFO]: Server running on port 80
+2025-04-23 10:19:28 [INFO]: Connected to MongoDB
+2025-04-23 10:19:28 [INFO]: Server running on port 80
+2025-04-23 10:19:33 [INFO]: Connected to MongoDB
+2025-04-23 10:19:33 [INFO]: Server running on port 80
+2025-04-23 10:20:26 [INFO]: Connected to MongoDB
+2025-04-23 10:20:26 [INFO]: Server running on port 80
+2025-04-23 10:20:32 [INFO]: Connected to MongoDB
+2025-04-23 10:20:32 [INFO]: Server running on port 80
+2025-04-23 10:20:36 [INFO]: Connected to MongoDB
+2025-04-23 10:20:36 [INFO]: Server running on port 80
+2025-04-23 10:20:46 [INFO]: Connected to MongoDB
+2025-04-23 10:20:46 [INFO]: Server running on port 80
+2025-04-23 10:20:50 [INFO]: Connected to MongoDB
+2025-04-23 10:20:50 [INFO]: Server running on port 80
+2025-04-23 10:20:56 [INFO]: Connected to MongoDB
+2025-04-23 10:20:56 [INFO]: Server running on port 80
+2025-04-23 10:20:59 [INFO]: Connected to MongoDB
+2025-04-23 10:20:59 [INFO]: Server running on port 80
+2025-04-23 10:21:11 [INFO]: Connected to MongoDB
+2025-04-23 10:21:11 [INFO]: Server running on port 80
+2025-04-23 10:21:17 [INFO]: Connected to MongoDB
+2025-04-23 10:21:17 [INFO]: Server running on port 80
+2025-04-23 10:21:22 [INFO]: Connected to MongoDB
+2025-04-23 10:21:22 [INFO]: Server running on port 80
+2025-04-23 10:21:28 [INFO]: Connected to MongoDB
+2025-04-23 10:21:28 [INFO]: Server running on port 80
+2025-04-23 10:21:34 [INFO]: Connected to MongoDB
+2025-04-23 10:21:34 [INFO]: Server running on port 80
+2025-04-23 10:21:41 [INFO]: Connected to MongoDB
+2025-04-23 10:21:41 [INFO]: Server running on port 80
+2025-04-23 10:21:49 [INFO]: Connected to MongoDB
+2025-04-23 10:21:49 [INFO]: Server running on port 80
+2025-04-23 10:21:55 [INFO]: Connected to MongoDB
+2025-04-23 10:21:55 [INFO]: Server running on port 80
+2025-04-23 10:22:00 [INFO]: Connected to MongoDB
+2025-04-23 10:22:00 [INFO]: Server running on port 80
+2025-04-23 10:22:12 [INFO]: Connected to MongoDB
+2025-04-23 10:22:12 [INFO]: Server running on port 80
+2025-04-23 10:22:18 [INFO]: Connected to MongoDB
+2025-04-23 10:22:18 [INFO]: Server running on port 80
+2025-04-23 10:22:24 [INFO]: Connected to MongoDB
+2025-04-23 10:22:24 [INFO]: Server running on port 80
+2025-04-23 10:22:27 [INFO]: Connected to MongoDB
+2025-04-23 10:22:27 [INFO]: Server running on port 80
+2025-04-23 10:22:33 [INFO]: Connected to MongoDB
+2025-04-23 10:22:33 [INFO]: Server running on port 80
+2025-04-23 10:22:43 [INFO]: Connected to MongoDB
+2025-04-23 10:22:43 [INFO]: Server running on port 80
+2025-04-23 10:22:49 [INFO]: Connected to MongoDB
+2025-04-23 10:22:49 [INFO]: Server running on port 80
+2025-04-23 10:22:58 [INFO]: Connected to MongoDB
+2025-04-23 10:22:58 [INFO]: Server running on port 80
+2025-04-23 10:23:03 [INFO]: Connected to MongoDB
+2025-04-23 10:23:03 [INFO]: Server running on port 80
+2025-04-23 10:23:15 [INFO]: Connected to MongoDB
+2025-04-23 10:23:15 [INFO]: Server running on port 80
+2025-04-23 10:23:21 [INFO]: Connected to MongoDB
+2025-04-23 10:23:21 [INFO]: Server running on port 80
+2025-04-23 10:23:32 [INFO]: Connected to MongoDB
+2025-04-23 10:23:32 [INFO]: Server running on port 80
+2025-04-23 10:23:37 [INFO]: Connected to MongoDB
+2025-04-23 10:23:37 [INFO]: Server running on port 80
+2025-04-23 10:23:43 [INFO]: Connected to MongoDB
+2025-04-23 10:23:43 [INFO]: Server running on port 80
+2025-04-23 10:24:00 [INFO]: Connected to MongoDB
+2025-04-23 10:24:00 [INFO]: Server running on port 80
+2025-04-23 10:24:03 [INFO]: Connected to MongoDB
+2025-04-23 10:24:03 [INFO]: Server running on port 80
+2025-04-23 10:24:07 [INFO]: Connected to MongoDB
+2025-04-23 10:24:07 [INFO]: Server running on port 80
+2025-04-23 10:24:15 [INFO]: Connected to MongoDB
+2025-04-23 10:24:15 [INFO]: Server running on port 80
+2025-04-23 10:24:19 [INFO]: Connected to MongoDB
+2025-04-23 10:24:19 [INFO]: Server running on port 80
+2025-04-23 10:24:23 [INFO]: Connected to MongoDB
+2025-04-23 10:24:23 [INFO]: Server running on port 80
+2025-04-23 10:24:27 [INFO]: Connected to MongoDB
+2025-04-23 10:24:27 [INFO]: Server running on port 80
+2025-04-23 10:24:32 [INFO]: Connected to MongoDB
+2025-04-23 10:24:32 [INFO]: Server running on port 80
+2025-04-23 10:24:36 [INFO]: Connected to MongoDB
+2025-04-23 10:24:36 [INFO]: Server running on port 80
+2025-04-23 10:24:41 [INFO]: Connected to MongoDB
+2025-04-23 10:24:41 [INFO]: Server running on port 80
+2025-04-23 10:24:46 [INFO]: Connected to MongoDB
+2025-04-23 10:24:46 [INFO]: Server running on port 80
+2025-04-23 10:24:53 [INFO]: Connected to MongoDB
+2025-04-23 10:24:53 [INFO]: Server running on port 80
+2025-04-23 10:25:00 [INFO]: Connected to MongoDB
+2025-04-23 10:25:00 [INFO]: Server running on port 80
+2025-04-23 10:25:04 [INFO]: Connected to MongoDB
+2025-04-23 10:25:04 [INFO]: Server running on port 80
+2025-04-23 10:25:11 [INFO]: Connected to MongoDB
+2025-04-23 10:25:11 [INFO]: Server running on port 80
+2025-04-23 10:25:14 [INFO]: Connected to MongoDB
+2025-04-23 10:25:14 [INFO]: Server running on port 80
+2025-04-23 10:25:24 [INFO]: Connected to MongoDB
+2025-04-23 10:25:24 [INFO]: Server running on port 80
+2025-04-23 10:25:29 [INFO]: Connected to MongoDB
+2025-04-23 10:25:29 [INFO]: Server running on port 80
+2025-04-23 10:25:39 [INFO]: Connected to MongoDB
+2025-04-23 10:25:39 [INFO]: Server running on port 80
+2025-04-23 10:25:48 [INFO]: Connected to MongoDB
+2025-04-23 10:25:48 [INFO]: Server running on port 80
+2025-04-23 10:25:55 [INFO]: Connected to MongoDB
+2025-04-23 10:25:55 [INFO]: Server running on port 80
+2025-04-23 10:26:06 [INFO]: Connected to MongoDB
+2025-04-23 10:26:06 [INFO]: Server running on port 80
+2025-04-23 10:26:13 [INFO]: Connected to MongoDB
+2025-04-23 10:26:13 [INFO]: Server running on port 80
+2025-04-23 10:28:01 [INFO]: Connected to MongoDB
+2025-04-23 10:28:01 [INFO]: Server running on port 80
+2025-04-23 10:29:17 [INFO]: Connected to MongoDB
+2025-04-23 10:29:17 [INFO]: Server running on port 80
+2025-04-23 10:29:26 [INFO]: Connected to MongoDB
+2025-04-23 10:29:26 [INFO]: Server running on port 80
+2025-04-23 10:58:21 [INFO]: Connected to MongoDB
+2025-04-23 10:58:21 [INFO]: Server running on port 80
+2025-04-23 12:37:47 [WARN]: MongoDB disconnected
+2025-04-23 12:37:47 [INFO]: MongoDB reconnected
+2025-04-23 12:50:29 [WARN]: MongoDB disconnected
+2025-04-23 12:50:39 [INFO]: MongoDB reconnected
+2025-04-23 14:50:38 [INFO]: Connected to MongoDB
+2025-04-23 14:50:38 [INFO]: Server running on port 80
+2025-04-23 14:51:28 [INFO]: Connected to MongoDB
+2025-04-23 14:51:28 [INFO]: Server running on port 80
+2025-04-23 14:51:39 [INFO]: Connected to MongoDB
+2025-04-23 14:51:39 [INFO]: Server running on port 80
+2025-04-23 14:51:44 [INFO]: Connected to MongoDB
+2025-04-23 14:51:44 [INFO]: Server running on port 80
+2025-04-23 14:51:49 [INFO]: Connected to MongoDB
+2025-04-23 14:51:49 [INFO]: Server running on port 80
+2025-04-23 14:51:54 [INFO]: Connected to MongoDB
+2025-04-23 14:51:54 [INFO]: Server running on port 80
+2025-04-23 14:51:59 [INFO]: Connected to MongoDB
+2025-04-23 14:51:59 [INFO]: Server running on port 80
+2025-04-23 14:52:04 [INFO]: Connected to MongoDB
+2025-04-23 14:52:04 [INFO]: Server running on port 80
+2025-04-23 14:52:09 [INFO]: Connected to MongoDB
+2025-04-23 14:52:09 [INFO]: Server running on port 80
+2025-04-23 14:52:12 [INFO]: Connected to MongoDB
+2025-04-23 14:52:12 [INFO]: Server running on port 80
+2025-04-23 14:52:15 [INFO]: Connected to MongoDB
+2025-04-23 14:52:15 [INFO]: Server running on port 80
+2025-04-23 14:52:22 [INFO]: Connected to MongoDB
+2025-04-23 14:52:22 [INFO]: Server running on port 80
+2025-04-23 14:52:26 [INFO]: Connected to MongoDB
+2025-04-23 14:52:26 [INFO]: Server running on port 80
+2025-04-23 14:52:32 [INFO]: Connected to MongoDB
+2025-04-23 14:52:32 [INFO]: Server running on port 80
+2025-04-23 14:52:40 [INFO]: Connected to MongoDB
+2025-04-23 14:52:40 [INFO]: Server running on port 80
+2025-04-23 14:52:43 [INFO]: Connected to MongoDB
+2025-04-23 14:52:43 [INFO]: Server running on port 80
+2025-04-23 14:52:48 [INFO]: Connected to MongoDB
+2025-04-23 14:52:48 [INFO]: Server running on port 80
+2025-04-23 14:52:53 [INFO]: Connected to MongoDB
+2025-04-23 14:52:53 [INFO]: Server running on port 80
+2025-04-23 14:52:57 [INFO]: Connected to MongoDB
+2025-04-23 14:52:58 [INFO]: Server running on port 80
+2025-04-23 14:53:06 [INFO]: Connected to MongoDB
+2025-04-23 14:53:06 [INFO]: Server running on port 80
+2025-04-23 14:53:14 [INFO]: Connected to MongoDB
+2025-04-23 14:53:14 [INFO]: Server running on port 80
+2025-04-23 14:53:23 [INFO]: Connected to MongoDB
+2025-04-23 14:53:23 [INFO]: Server running on port 80
+2025-04-23 14:54:08 [INFO]: Connected to MongoDB
+2025-04-23 14:54:08 [INFO]: Server running on port 80
+2025-04-23 14:54:12 [INFO]: Connected to MongoDB
+2025-04-23 14:54:12 [INFO]: Server running on port 80
+2025-04-23 14:55:10 [INFO]: Connected to MongoDB
+2025-04-23 14:55:10 [INFO]: Server running on port 80
+2025-04-23 14:55:21 [INFO]: Connected to MongoDB
+2025-04-23 14:55:21 [INFO]: Server running on port 80
+2025-04-23 14:55:29 [INFO]: Connected to MongoDB
+2025-04-23 14:55:29 [INFO]: Server running on port 80
+2025-04-23 14:55:37 [INFO]: Connected to MongoDB
+2025-04-23 14:55:37 [INFO]: Server running on port 80
+2025-04-23 14:55:40 [INFO]: Connected to MongoDB
+2025-04-23 14:55:40 [INFO]: Server running on port 80
+2025-04-23 14:55:46 [INFO]: Connected to MongoDB
+2025-04-23 14:55:46 [INFO]: Server running on port 80
+2025-04-23 14:56:13 [INFO]: Connected to MongoDB
+2025-04-23 14:56:13 [INFO]: Server running on port 80
+2025-04-23 14:56:54 [INFO]: Connected to MongoDB
+2025-04-23 14:56:54 [INFO]: Server running on port 80
+2025-04-23 14:57:21 [INFO]: Connected to MongoDB
+2025-04-23 14:57:21 [INFO]: Server running on port 80
+2025-04-23 15:02:24 [INFO]: Connected to MongoDB
+2025-04-23 15:02:24 [INFO]: Server running on port 80
+2025-04-23 15:02:57 [INFO]: Connected to MongoDB
+2025-04-23 15:02:57 [INFO]: Server running on port 80
+2025-04-23 15:06:38 [INFO]: Connected to MongoDB
+2025-04-23 15:06:38 [INFO]: Server running on port 80
+2025-04-23 15:06:45 [INFO]: Connected to MongoDB
+2025-04-23 15:06:45 [INFO]: Server running on port 80
+2025-04-23 15:06:58 [INFO]: Connected to MongoDB
+2025-04-23 15:06:58 [INFO]: Server running on port 80
+2025-04-23 15:07:13 [INFO]: Connected to MongoDB
+2025-04-23 15:07:13 [INFO]: Server running on port 80
+2025-04-23 15:08:13 [INFO]: Connected to MongoDB
+2025-04-23 15:08:13 [INFO]: Server running on port 80
+2025-04-23 15:08:56 [INFO]: Connected to MongoDB
+2025-04-23 15:08:56 [INFO]: Server running on port 80
+2025-04-23 15:08:59 [INFO]: Connected to MongoDB
+2025-04-23 15:08:59 [INFO]: Server running on port 80
+2025-04-23 15:09:03 [INFO]: Connected to MongoDB
+2025-04-23 15:09:03 [INFO]: Server running on port 80
+2025-04-23 15:09:12 [INFO]: Connected to MongoDB
+2025-04-23 15:09:12 [INFO]: Server running on port 80
+2025-04-23 15:10:30 [INFO]: Connected to MongoDB
+2025-04-23 15:10:30 [INFO]: Server running on port 80
+2025-04-23 15:10:33 [INFO]: Connected to MongoDB
+2025-04-23 15:10:33 [INFO]: Server running on port 80
+2025-04-23 15:10:40 [INFO]: Connected to MongoDB
+2025-04-23 15:10:40 [INFO]: Server running on port 80
+2025-04-23 15:10:44 [INFO]: Connected to MongoDB
+2025-04-23 15:10:44 [INFO]: Server running on port 80
+2025-04-23 15:11:28 [INFO]: Connected to MongoDB
+2025-04-23 15:11:28 [INFO]: Server running on port 80
+2025-04-23 15:11:32 [INFO]: Connected to MongoDB
+2025-04-23 15:11:32 [INFO]: Server running on port 80
+2025-04-23 15:13:33 [INFO]: Connected to MongoDB
+2025-04-23 15:13:33 [INFO]: Server running on port 80
+2025-04-23 15:14:10 [INFO]: Connected to MongoDB
+2025-04-23 15:14:10 [INFO]: Server running on port 80
+2025-04-23 15:14:30 [INFO]: Connected to MongoDB
+2025-04-23 15:14:30 [INFO]: Server running on port 80
+2025-04-23 15:15:19 [INFO]: Connected to MongoDB
+2025-04-23 15:15:19 [INFO]: Server running on port 80
+2025-04-23 15:17:28 [INFO]: Connected to MongoDB
+2025-04-23 15:17:28 [INFO]: Server running on port 80
+2025-04-23 15:17:43 [INFO]: Connected to MongoDB
+2025-04-23 15:17:43 [INFO]: Server running on port 80
+2025-04-23 15:17:57 [INFO]: Connected to MongoDB
+2025-04-23 15:17:57 [INFO]: Server running on port 80
+2025-04-23 15:18:01 [INFO]: Connected to MongoDB
+2025-04-23 15:18:01 [INFO]: Server running on port 80
+2025-04-23 15:21:00 [INFO]: Connected to MongoDB
+2025-04-23 15:21:00 [INFO]: Server running on port 80
+2025-04-23 15:21:05 [INFO]: Connected to MongoDB
+2025-04-23 15:21:05 [INFO]: Server running on port 80
+2025-04-23 15:21:10 [INFO]: Connected to MongoDB
+2025-04-23 15:21:10 [INFO]: Server running on port 80
+2025-04-23 15:21:14 [INFO]: Connected to MongoDB
+2025-04-23 15:21:14 [INFO]: Server running on port 80
+2025-04-23 15:21:19 [INFO]: Connected to MongoDB
+2025-04-23 15:21:19 [INFO]: Server running on port 80
+2025-04-23 15:22:18 [INFO]: Connected to MongoDB
+2025-04-23 15:22:18 [INFO]: Server running on port 80
+2025-04-23 15:22:25 [INFO]: Connected to MongoDB
+2025-04-23 15:22:25 [INFO]: Server running on port 80
+2025-04-23 15:22:35 [INFO]: Connected to MongoDB
+2025-04-23 15:22:35 [INFO]: Server running on port 80
+2025-04-23 15:24:01 [INFO]: Connected to MongoDB
+2025-04-23 15:24:01 [INFO]: Server running on port 80
+2025-04-23 15:24:58 [INFO]: Connected to MongoDB
+2025-04-23 15:24:58 [INFO]: Server running on port 80
+2025-04-23 15:25:04 [INFO]: Connected to MongoDB
+2025-04-23 15:25:04 [INFO]: Server running on port 80
+2025-04-23 15:25:54 [INFO]: Connected to MongoDB
+2025-04-23 15:25:54 [INFO]: Server running on port 80
+2025-04-23 15:25:58 [INFO]: Connected to MongoDB
+2025-04-23 15:25:58 [INFO]: Server running on port 80
+2025-04-23 15:26:06 [INFO]: Connected to MongoDB
+2025-04-23 15:26:06 [INFO]: Server running on port 80
+2025-04-23 15:26:15 [INFO]: Connected to MongoDB
+2025-04-23 15:26:15 [INFO]: Server running on port 80
+2025-04-23 15:26:28 [INFO]: Connected to MongoDB
+2025-04-23 15:26:28 [INFO]: Server running on port 80
+2025-04-23 15:26:57 [INFO]: Connected to MongoDB
+2025-04-23 15:26:57 [INFO]: Server running on port 80
+2025-04-23 15:28:23 [INFO]: Connected to MongoDB
+2025-04-23 15:28:23 [INFO]: Server running on port 80
+2025-04-23 15:28:32 [INFO]: Connected to MongoDB
+2025-04-23 15:28:32 [INFO]: Server running on port 80
+2025-04-23 15:28:37 [INFO]: Connected to MongoDB
+2025-04-23 15:28:37 [INFO]: Server running on port 80
+2025-04-23 15:28:39 [INFO]: Connected to MongoDB
+2025-04-23 15:28:39 [INFO]: Server running on port 80
+2025-04-23 15:29:11 [INFO]: Connected to MongoDB
+2025-04-23 15:29:11 [INFO]: Server running on port 80
+2025-04-23 15:29:28 [INFO]: Connected to MongoDB
+2025-04-23 15:29:28 [INFO]: Server running on port 80
+2025-04-23 15:29:52 [INFO]: Connected to MongoDB
+2025-04-23 15:29:52 [INFO]: Server running on port 80
+2025-04-23 15:30:15 [INFO]: Connected to MongoDB
+2025-04-23 15:30:15 [INFO]: Server running on port 80
+2025-04-23 15:30:22 [INFO]: Connected to MongoDB
+2025-04-23 15:30:22 [INFO]: Server running on port 80
+2025-04-23 15:30:34 [INFO]: Connected to MongoDB
+2025-04-23 15:30:34 [INFO]: Server running on port 80
+2025-04-23 15:31:01 [INFO]: Connected to MongoDB
+2025-04-23 15:31:01 [INFO]: Server running on port 80
+2025-04-23 15:31:11 [INFO]: Connected to MongoDB
+2025-04-23 15:31:11 [INFO]: Server running on port 80
+2025-04-23 15:31:20 [INFO]: Connected to MongoDB
+2025-04-23 15:31:20 [INFO]: Server running on port 80
+2025-04-23 15:31:27 [INFO]: Connected to MongoDB
+2025-04-23 15:31:27 [INFO]: Server running on port 80
+2025-04-23 15:32:51 [INFO]: Connected to MongoDB
+2025-04-23 15:32:51 [INFO]: Server running on port 80
+2025-04-23 15:32:56 [INFO]: Connected to MongoDB
+2025-04-23 15:32:56 [INFO]: Server running on port 80
+2025-04-23 15:33:02 [INFO]: Connected to MongoDB
+2025-04-23 15:33:02 [INFO]: Server running on port 80
+2025-04-23 15:33:16 [INFO]: Connected to MongoDB
+2025-04-23 15:33:16 [INFO]: Server running on port 80
+2025-04-23 15:35:06 [INFO]: Connected to MongoDB
+2025-04-23 15:35:06 [INFO]: Server running on port 80
+2025-04-23 15:36:15 [INFO]: Connected to MongoDB
+2025-04-23 15:36:15 [INFO]: Server running on port 80
+2025-04-23 15:36:24 [INFO]: Connected to MongoDB
+2025-04-23 15:36:24 [INFO]: Server running on port 80
+2025-04-23 15:36:29 [INFO]: Connected to MongoDB
+2025-04-23 15:36:29 [INFO]: Server running on port 80
+2025-04-23 15:36:52 [INFO]: Connected to MongoDB
+2025-04-23 15:36:52 [INFO]: Server running on port 80
+2025-04-23 15:36:57 [INFO]: Connected to MongoDB
+2025-04-23 15:36:57 [INFO]: Server running on port 80
+2025-04-23 15:37:04 [INFO]: Connected to MongoDB
+2025-04-23 15:37:04 [INFO]: Server running on port 80
+2025-04-23 15:37:52 [INFO]: Connected to MongoDB
+2025-04-23 15:37:52 [INFO]: Server running on port 80
+2025-04-23 15:38:14 [INFO]: Connected to MongoDB
+2025-04-23 15:38:14 [INFO]: Server running on port 80
+2025-04-23 15:38:27 [INFO]: Connected to MongoDB
+2025-04-23 15:38:27 [INFO]: Server running on port 80
+2025-04-23 15:38:33 [INFO]: Connected to MongoDB
+2025-04-23 15:38:33 [INFO]: Server running on port 80
+2025-04-23 15:39:19 [INFO]: Connected to MongoDB
+2025-04-23 15:39:19 [INFO]: Server running on port 80
+2025-04-23 15:39:34 [INFO]: Connected to MongoDB
+2025-04-23 15:39:34 [INFO]: Server running on port 80
+2025-04-23 15:39:47 [INFO]: Connected to MongoDB
+2025-04-23 15:39:47 [INFO]: Server running on port 80
+2025-04-23 15:41:30 [INFO]: Connected to MongoDB
+2025-04-23 15:41:30 [INFO]: Server running on port 80
+2025-04-23 15:41:34 [INFO]: Connected to MongoDB
+2025-04-23 15:41:34 [INFO]: Server running on port 80
+2025-04-23 15:41:40 [INFO]: Connected to MongoDB
+2025-04-23 15:41:40 [INFO]: Server running on port 80
+2025-04-23 15:41:45 [INFO]: Connected to MongoDB
+2025-04-23 15:41:45 [INFO]: Server running on port 80
+2025-04-23 15:41:48 [INFO]: Connected to MongoDB
+2025-04-23 15:41:48 [INFO]: Server running on port 80
+2025-04-23 15:43:15 [INFO]: Connected to MongoDB
+2025-04-23 15:43:15 [INFO]: Server running on port 80
+2025-04-23 15:45:11 [INFO]: Connected to MongoDB
+2025-04-23 15:45:11 [INFO]: Server running on port 80
+2025-04-23 15:45:16 [INFO]: Connected to MongoDB
+2025-04-23 15:45:16 [INFO]: Server running on port 80
+2025-04-23 15:45:22 [INFO]: Connected to MongoDB
+2025-04-23 15:45:22 [INFO]: Server running on port 80
+2025-04-23 15:53:27 [INFO]: MongoDB reconnected
+2025-04-23 15:53:27 [INFO]: MongoDB reconnected
+2025-04-23 15:53:31 [INFO]: Connected to MongoDB
+2025-04-23 15:53:31 [INFO]: Server running on port 80
+2025-04-23 15:53:39 [INFO]: Connected to MongoDB
+2025-04-23 15:53:39 [INFO]: Server running on port 80
+2025-04-23 15:54:01 [INFO]: Connected to MongoDB
+2025-04-23 15:54:01 [INFO]: Server running on port 80
+2025-04-23 15:54:27 [INFO]: Connected to MongoDB
+2025-04-23 15:54:27 [INFO]: Server running on port 80
+2025-04-23 15:54:40 [INFO]: Connected to MongoDB
+2025-04-23 15:54:40 [INFO]: Server running on port 80
+2025-04-23 15:54:44 [INFO]: Connected to MongoDB
+2025-04-23 15:54:44 [INFO]: Server running on port 80
+2025-04-23 15:54:53 [INFO]: Connected to MongoDB
+2025-04-23 15:54:53 [INFO]: Server running on port 80
+2025-04-23 15:54:58 [INFO]: Connected to MongoDB
+2025-04-23 15:54:58 [INFO]: Server running on port 80
+2025-04-23 15:55:24 [INFO]: Connected to MongoDB
+2025-04-23 15:55:24 [INFO]: Server running on port 80
+2025-04-23 15:55:36 [INFO]: Connected to MongoDB
+2025-04-23 15:55:36 [INFO]: Server running on port 80
+2025-04-23 15:57:25 [INFO]: Connected to MongoDB
+2025-04-23 15:57:25 [INFO]: Server running on port 80
+2025-04-23 15:58:39 [INFO]: Connected to MongoDB
+2025-04-23 15:58:39 [INFO]: Server running on port 80
+2025-04-23 15:58:43 [INFO]: Connected to MongoDB
+2025-04-23 15:58:43 [INFO]: Server running on port 80
+2025-04-23 15:58:53 [INFO]: Connected to MongoDB
+2025-04-23 15:58:53 [INFO]: Server running on port 80
+2025-04-23 16:00:28 [INFO]: Connected to MongoDB
+2025-04-23 16:00:28 [INFO]: Server running on port 80
+2025-04-23 16:00:51 [INFO]: Connected to MongoDB
+2025-04-23 16:00:51 [INFO]: Server running on port 80
+2025-04-23 16:03:03 [INFO]: Connected to MongoDB
+2025-04-23 16:03:03 [INFO]: Server running on port 80
+2025-04-23 16:06:43 [INFO]: Connected to MongoDB
+2025-04-23 16:06:43 [INFO]: Server running on port 80
+2025-04-23 16:07:40 [INFO]: Connected to MongoDB
+2025-04-23 16:07:40 [INFO]: Server running on port 80
+2025-04-23 16:07:43 [INFO]: Connected to MongoDB
+2025-04-23 16:07:43 [INFO]: Server running on port 80
+2025-04-23 16:29:13 [INFO]: MongoDB reconnected
+2025-04-23 16:29:13 [INFO]: MongoDB reconnected
+2025-04-23 16:29:24 [WARN]: MongoDB disconnected
+2025-04-23 16:29:24 [INFO]: MongoDB reconnected
+2025-04-23 17:50:02 [INFO]: MongoDB reconnected
+2025-04-23 17:50:02 [INFO]: MongoDB reconnected
+2025-04-23 17:50:13 [WARN]: MongoDB disconnected
+2025-04-23 17:50:13 [INFO]: MongoDB reconnected
+2025-04-23 17:50:51 [INFO]: Connected to MongoDB
+2025-04-23 17:50:51 [INFO]: Server running on port 80
+2025-04-23 17:53:55 [INFO]: Connected to MongoDB
+2025-04-23 17:53:55 [INFO]: Server running on port 80
+2025-04-23 17:54:02 [INFO]: Connected to MongoDB
+2025-04-23 17:54:02 [INFO]: Server running on port 80
+2025-04-23 17:54:05 [INFO]: Connected to MongoDB
+2025-04-23 17:54:05 [INFO]: Server running on port 80
+2025-04-23 17:54:08 [INFO]: Connected to MongoDB
+2025-04-23 17:54:08 [INFO]: Server running on port 80
+2025-04-23 17:54:11 [INFO]: Connected to MongoDB
+2025-04-23 17:54:11 [INFO]: Server running on port 80
+2025-04-23 17:54:18 [INFO]: Connected to MongoDB
+2025-04-23 17:54:18 [INFO]: Server running on port 80
+2025-04-23 17:54:28 [INFO]: Connected to MongoDB
+2025-04-23 17:54:28 [INFO]: Server running on port 80
+2025-04-23 17:54:33 [INFO]: Connected to MongoDB
+2025-04-23 17:54:33 [INFO]: Server running on port 80
+2025-04-23 17:54:41 [INFO]: Connected to MongoDB
+2025-04-23 17:54:41 [INFO]: Server running on port 80
+2025-04-23 17:54:51 [INFO]: Connected to MongoDB
+2025-04-23 17:54:51 [INFO]: Server running on port 80
+2025-04-23 17:54:57 [INFO]: Connected to MongoDB
+2025-04-23 17:54:57 [INFO]: Server running on port 80
+2025-04-23 17:55:05 [INFO]: Connected to MongoDB
+2025-04-23 17:55:05 [INFO]: Server running on port 80
+2025-04-23 17:55:14 [INFO]: Connected to MongoDB
+2025-04-23 17:55:14 [INFO]: Server running on port 80
+2025-04-23 17:55:36 [INFO]: Connected to MongoDB
+2025-04-23 17:55:36 [INFO]: Server running on port 80
+2025-04-23 17:58:57 [INFO]: Connected to MongoDB
+2025-04-23 17:58:57 [INFO]: Server running on port 80
+2025-04-23 17:59:39 [INFO]: Connected to MongoDB
+2025-04-23 17:59:39 [INFO]: Server running on port 80
+2025-04-23 17:59:52 [INFO]: Connected to MongoDB
+2025-04-23 17:59:52 [INFO]: Server running on port 80
+2025-04-23 17:59:55 [INFO]: Connected to MongoDB
+2025-04-23 17:59:55 [INFO]: Server running on port 80
+2025-04-23 17:59:58 [INFO]: Connected to MongoDB
+2025-04-23 17:59:58 [INFO]: Server running on port 80
+2025-04-23 18:00:08 [INFO]: Connected to MongoDB
+2025-04-23 18:00:08 [INFO]: Server running on port 80
+2025-04-23 18:00:30 [INFO]: Connected to MongoDB
+2025-04-23 18:00:30 [INFO]: Server running on port 80
+2025-04-23 18:01:02 [INFO]: Connected to MongoDB
+2025-04-23 18:01:02 [INFO]: Server running on port 80
+2025-04-23 18:01:22 [INFO]: Connected to MongoDB
+2025-04-23 18:01:22 [INFO]: Server running on port 80
+2025-04-23 18:01:26 [INFO]: Connected to MongoDB
+2025-04-23 18:01:26 [INFO]: Server running on port 80
+2025-04-23 18:01:41 [INFO]: Connected to MongoDB
+2025-04-23 18:01:41 [INFO]: Server running on port 80
+2025-04-23 18:01:46 [INFO]: Connected to MongoDB
+2025-04-23 18:01:46 [INFO]: Server running on port 80
+2025-04-23 18:01:50 [INFO]: Connected to MongoDB
+2025-04-23 18:01:50 [INFO]: Server running on port 80
+2025-04-23 18:02:23 [INFO]: Connected to MongoDB
+2025-04-23 18:02:23 [INFO]: Server running on port 80
+2025-04-23 18:02:29 [INFO]: Connected to MongoDB
+2025-04-23 18:02:29 [INFO]: Server running on port 80
+2025-04-23 18:02:43 [INFO]: Connected to MongoDB
+2025-04-23 18:02:43 [INFO]: Server running on port 80
+2025-04-23 18:02:52 [INFO]: Connected to MongoDB
+2025-04-23 18:02:52 [INFO]: Server running on port 80
+2025-04-23 18:03:05 [INFO]: Connected to MongoDB
+2025-04-23 18:03:05 [INFO]: Server running on port 80
+2025-04-23 18:03:27 [INFO]: Connected to MongoDB
+2025-04-23 18:03:27 [INFO]: Server running on port 80
+2025-04-23 18:03:34 [INFO]: Connected to MongoDB
+2025-04-23 18:03:34 [INFO]: Server running on port 80
+2025-04-23 18:03:40 [INFO]: Connected to MongoDB
+2025-04-23 18:03:40 [INFO]: Server running on port 80
+2025-04-23 18:03:47 [INFO]: Connected to MongoDB
+2025-04-23 18:03:47 [INFO]: Server running on port 80
+2025-04-23 18:03:54 [INFO]: Connected to MongoDB
+2025-04-23 18:03:54 [INFO]: Server running on port 80
+2025-04-23 18:04:17 [INFO]: Connected to MongoDB
+2025-04-23 18:04:17 [INFO]: Server running on port 80
+2025-04-23 18:06:00 [INFO]: Connected to MongoDB
+2025-04-23 18:06:00 [INFO]: Server running on port 80
+2025-04-23 19:07:14 [WARN]: MongoDB disconnected
+2025-04-23 19:07:14 [INFO]: MongoDB reconnected
+2025-04-23 19:08:29 [WARN]: MongoDB disconnected
+2025-04-23 19:08:29 [ERROR]: MongoDB connection error: Socket 'secureConnect' timed out after 13826ms (connectTimeoutMS: 10000)
+2025-04-23 19:08:29 [ERROR]: Failed to start server: Socket 'secureConnect' timed out after 13826ms (connectTimeoutMS: 10000)
+2025-04-23 19:08:29 [ERROR]: MongoDB connection error: Socket 'secureConnect' timed out after 13826ms (connectTimeoutMS: 10000)
+2025-04-23 19:09:19 [WARN]: MongoDB disconnected
+2025-04-23 19:09:19 [ERROR]: MongoDB connection error: Socket 'secureConnect' timed out after 14698ms (connectTimeoutMS: 10000)
+2025-04-23 19:09:19 [ERROR]: Failed to start server: Socket 'secureConnect' timed out after 14698ms (connectTimeoutMS: 10000)
+2025-04-23 19:09:19 [ERROR]: MongoDB connection error: Socket 'secureConnect' timed out after 14698ms (connectTimeoutMS: 10000)
+2025-04-23 19:10:27 [INFO]: Connected to MongoDB
+2025-04-23 19:10:27 [INFO]: Server running on port 80
+2025-04-23 19:11:35 [WARN]: MongoDB disconnected
+2025-04-23 19:11:47 [INFO]: MongoDB reconnected
+2025-04-23 19:16:56 [INFO]: Connected to MongoDB
+2025-04-23 19:16:56 [INFO]: Server running on port 80
+2025-04-23 19:19:22 [INFO]: Connected to MongoDB
+2025-04-23 19:19:22 [INFO]: Server running on port 80
+2025-04-23 19:22:04 [INFO]: Connected to MongoDB
+2025-04-23 19:22:04 [INFO]: Server running on port 80
+2025-04-23 19:22:09 [INFO]: Connected to MongoDB
+2025-04-23 19:22:09 [INFO]: Server running on port 80
+2025-04-23 19:22:16 [INFO]: Connected to MongoDB
+2025-04-23 19:22:16 [INFO]: Server running on port 80
+2025-04-23 19:22:22 [INFO]: Connected to MongoDB
+2025-04-23 19:22:22 [INFO]: Server running on port 80
+2025-04-23 19:22:59 [INFO]: Connected to MongoDB
+2025-04-23 19:22:59 [INFO]: Server running on port 80
+2025-04-23 19:23:12 [INFO]: Connected to MongoDB
+2025-04-23 19:23:12 [INFO]: Server running on port 80
+2025-04-23 19:23:20 [INFO]: Connected to MongoDB
+2025-04-23 19:23:20 [INFO]: Server running on port 80
+2025-04-23 19:23:26 [INFO]: Connected to MongoDB
+2025-04-23 19:23:26 [INFO]: Server running on port 80
+2025-04-23 19:23:38 [INFO]: Connected to MongoDB
+2025-04-23 19:23:38 [INFO]: Server running on port 80
+2025-04-23 19:23:41 [INFO]: Connected to MongoDB
+2025-04-23 19:23:41 [INFO]: Server running on port 80
+2025-04-23 19:23:44 [INFO]: Connected to MongoDB
+2025-04-23 19:23:44 [INFO]: Server running on port 80
+2025-04-23 19:24:35 [INFO]: Connected to MongoDB
+2025-04-23 19:24:35 [INFO]: Server running on port 80
+2025-04-23 19:24:49 [INFO]: Connected to MongoDB
+2025-04-23 19:24:49 [INFO]: Server running on port 80
+2025-04-23 19:24:54 [INFO]: Connected to MongoDB
+2025-04-23 19:24:54 [INFO]: Server running on port 80
+2025-04-23 19:25:01 [INFO]: Connected to MongoDB
+2025-04-23 19:25:01 [INFO]: Server running on port 80
+2025-04-23 19:28:22 [INFO]: Connected to MongoDB
+2025-04-23 19:28:22 [INFO]: Server running on port 80
+2025-04-23 19:28:27 [INFO]: Connected to MongoDB
+2025-04-23 19:28:27 [INFO]: Server running on port 80
+2025-04-23 19:28:31 [INFO]: Connected to MongoDB
+2025-04-23 19:28:31 [INFO]: Server running on port 80
+2025-04-23 19:28:37 [INFO]: Connected to MongoDB
+2025-04-23 19:28:37 [INFO]: Server running on port 80
+2025-04-23 19:30:15 [INFO]: Connected to MongoDB
+2025-04-23 19:30:15 [INFO]: Server running on port 80
+2025-04-23 19:31:58 [INFO]: Connected to MongoDB
+2025-04-23 19:31:58 [INFO]: Server running on port 80
+2025-04-23 19:32:16 [INFO]: Connected to MongoDB
+2025-04-23 19:32:16 [INFO]: Server running on port 80
+2025-04-23 19:32:26 [INFO]: Connected to MongoDB
+2025-04-23 19:32:26 [INFO]: Server running on port 80
+2025-04-23 19:32:34 [INFO]: Connected to MongoDB
+2025-04-23 19:32:34 [INFO]: Server running on port 80
+2025-04-23 19:32:45 [INFO]: Connected to MongoDB
+2025-04-23 19:32:45 [INFO]: Server running on port 80
+2025-04-23 19:32:48 [INFO]: Connected to MongoDB
+2025-04-23 19:32:48 [INFO]: Server running on port 80
+2025-04-23 19:38:44 [INFO]: Connected to MongoDB
+2025-04-23 19:38:44 [INFO]: Server running on port 80
+2025-04-23 19:39:15 [INFO]: Connected to MongoDB
+2025-04-23 19:39:15 [INFO]: Server running on port 80
+2025-04-23 19:39:38 [INFO]: Connected to MongoDB
+2025-04-23 19:39:38 [INFO]: Server running on port 80
+2025-04-23 19:39:47 [INFO]: Connected to MongoDB
+2025-04-23 19:39:47 [INFO]: Server running on port 80
+2025-04-23 19:40:02 [INFO]: Connected to MongoDB
+2025-04-23 19:40:02 [INFO]: Server running on port 80
+2025-04-23 19:40:19 [INFO]: Connected to MongoDB
+2025-04-23 19:40:19 [INFO]: Server running on port 80
+2025-04-23 19:40:39 [INFO]: Connected to MongoDB
+2025-04-23 19:40:39 [INFO]: Server running on port 80
+2025-04-23 19:40:53 [INFO]: Connected to MongoDB
+2025-04-23 19:40:53 [INFO]: Server running on port 80
+2025-04-23 19:41:08 [INFO]: Connected to MongoDB
+2025-04-23 19:41:08 [INFO]: Server running on port 80
+2025-04-23 19:41:17 [INFO]: Connected to MongoDB
+2025-04-23 19:41:17 [INFO]: Server running on port 80
+2025-04-23 19:41:25 [INFO]: Connected to MongoDB
+2025-04-23 19:41:25 [INFO]: Server running on port 80
+2025-04-23 19:41:29 [INFO]: Connected to MongoDB
+2025-04-23 19:41:29 [INFO]: Server running on port 80
+2025-04-23 19:41:34 [INFO]: Connected to MongoDB
+2025-04-23 19:41:34 [INFO]: Server running on port 80
+2025-04-23 19:41:45 [INFO]: Connected to MongoDB
+2025-04-23 19:41:45 [INFO]: Server running on port 80
+2025-04-23 19:41:49 [INFO]: Connected to MongoDB
+2025-04-23 19:41:49 [INFO]: Server running on port 80
+2025-04-23 19:41:54 [INFO]: Connected to MongoDB
+2025-04-23 19:41:54 [INFO]: Server running on port 80
+2025-04-23 19:42:13 [INFO]: Connected to MongoDB
+2025-04-23 19:42:13 [INFO]: Server running on port 80
+2025-04-23 19:42:23 [INFO]: Connected to MongoDB
+2025-04-23 19:42:23 [INFO]: Server running on port 80
+2025-04-23 20:10:34 [INFO]: MongoDB reconnected
+2025-04-23 20:26:36 [WARN]: MongoDB disconnected
+2025-04-23 20:26:36 [INFO]: MongoDB reconnected
+2025-04-23 20:35:32 [INFO]: MongoDB reconnected
+2025-04-23 20:35:57 [INFO]: Connected to MongoDB
+2025-04-23 20:35:57 [INFO]: Server running on port 80
+2025-04-23 20:36:03 [INFO]: Connected to MongoDB
+2025-04-23 20:36:03 [INFO]: Server running on port 80
+2025-04-23 20:36:08 [INFO]: Connected to MongoDB
+2025-04-23 20:36:08 [INFO]: Server running on port 80
+2025-04-23 20:36:23 [INFO]: Connected to MongoDB
+2025-04-23 20:36:23 [INFO]: Server running on port 80
+2025-04-23 20:36:27 [INFO]: Connected to MongoDB
+2025-04-23 20:36:27 [INFO]: Server running on port 80
+2025-04-23 20:36:33 [INFO]: Connected to MongoDB
+2025-04-23 20:36:33 [INFO]: Server running on port 80
+2025-04-23 20:36:36 [INFO]: Connected to MongoDB
+2025-04-23 20:36:36 [INFO]: Server running on port 80
+2025-04-23 20:36:51 [INFO]: Connected to MongoDB
+2025-04-23 20:36:51 [INFO]: Server running on port 80
+2025-04-23 20:36:55 [INFO]: Connected to MongoDB
+2025-04-23 20:36:55 [INFO]: Server running on port 80
+2025-04-23 20:37:09 [INFO]: Connected to MongoDB
+2025-04-23 20:37:09 [INFO]: Server running on port 80
+2025-04-23 20:37:24 [INFO]: Connected to MongoDB
+2025-04-23 20:37:24 [INFO]: Server running on port 80
+2025-04-23 20:37:26 [INFO]: Connected to MongoDB
+2025-04-23 20:37:26 [INFO]: Server running on port 80
+2025-04-23 20:37:35 [INFO]: Connected to MongoDB
+2025-04-23 20:37:35 [INFO]: Server running on port 80
+2025-04-23 20:37:38 [INFO]: Connected to MongoDB
+2025-04-23 20:37:38 [INFO]: Server running on port 80
+2025-04-23 20:37:43 [INFO]: Connected to MongoDB
+2025-04-23 20:37:43 [INFO]: Server running on port 80
+2025-04-23 20:37:48 [INFO]: Connected to MongoDB
+2025-04-23 20:37:48 [INFO]: Server running on port 80
+2025-04-23 20:37:55 [INFO]: Connected to MongoDB
+2025-04-23 20:37:55 [INFO]: Server running on port 80
+2025-04-23 20:38:00 [INFO]: Connected to MongoDB
+2025-04-23 20:38:00 [INFO]: Server running on port 80
+2025-04-23 20:38:05 [INFO]: Connected to MongoDB
+2025-04-23 20:38:05 [INFO]: Server running on port 80
+2025-04-23 20:56:56 [INFO]: Connected to MongoDB
+2025-04-23 20:56:56 [INFO]: Server running on port 80
+2025-04-23 20:57:54 [INFO]: Connected to MongoDB
+2025-04-23 20:57:54 [INFO]: Server running on port 80
+2025-04-23 20:57:57 [INFO]: Connected to MongoDB
+2025-04-23 20:57:57 [INFO]: Server running on port 80
+2025-04-23 20:58:24 [INFO]: Connected to MongoDB
+2025-04-23 20:58:24 [INFO]: Server running on port 80
+2025-04-23 21:00:08 [INFO]: Connected to MongoDB
+2025-04-23 21:00:08 [INFO]: Server running on port 80
+2025-04-23 21:04:06 [INFO]: Connected to MongoDB
+2025-04-23 21:04:06 [INFO]: Server running on port 80
+2025-04-23 21:11:36 [INFO]: Connected to MongoDB
+2025-04-23 21:11:36 [INFO]: Server running on port 80
+2025-04-23 21:11:51 [INFO]: Connected to MongoDB
+2025-04-23 21:11:51 [INFO]: Server running on port 80
+2025-04-23 21:12:14 [INFO]: Connected to MongoDB
+2025-04-23 21:12:14 [INFO]: Server running on port 80
+2025-04-23 21:14:03 [INFO]: Connected to MongoDB
+2025-04-23 21:14:03 [INFO]: Server running on port 80
+2025-04-23 21:15:17 [INFO]: Connected to MongoDB
+2025-04-23 21:15:17 [INFO]: Server running on port 80
+2025-04-23 21:15:21 [INFO]: Connected to MongoDB
+2025-04-23 21:15:21 [INFO]: Server running on port 80
+2025-04-23 21:16:39 [INFO]: Connected to MongoDB
+2025-04-23 21:16:39 [INFO]: Server running on port 80
+2025-04-23 21:21:16 [INFO]: Connected to MongoDB
+2025-04-23 21:21:16 [INFO]: Server running on port 80
+2025-04-23 21:21:34 [INFO]: Connected to MongoDB
+2025-04-23 21:21:34 [INFO]: Server running on port 80
+2025-04-23 21:21:38 [INFO]: Connected to MongoDB
+2025-04-23 21:21:38 [INFO]: Server running on port 80
+2025-04-23 21:50:20 [INFO]: MongoDB reconnected
+2025-04-23 21:50:20 [INFO]: MongoDB reconnected
+2025-04-23 21:50:30 [WARN]: MongoDB disconnected
+2025-04-23 21:50:31 [INFO]: MongoDB reconnected
+2025-04-23 22:01:25 [INFO]: Connected to MongoDB
+2025-04-23 22:01:25 [INFO]: Server running on port 80
+2025-04-23 22:18:43 [WARN]: MongoDB disconnected
+2025-04-23 22:18:53 [INFO]: MongoDB reconnected
+2025-04-23 22:34:13 [INFO]: MongoDB reconnected
+2025-04-23 22:34:24 [WARN]: MongoDB disconnected
+2025-04-23 22:34:24 [INFO]: MongoDB reconnected
+2025-04-23 22:49:44 [INFO]: MongoDB reconnected
+2025-04-23 22:49:54 [WARN]: MongoDB disconnected
+2025-04-23 22:49:54 [INFO]: MongoDB reconnected
+2025-04-23 23:23:26 [INFO]: Connected to MongoDB
+2025-04-23 23:23:26 [INFO]: Server running on port 80
+2025-04-23 23:35:18 [INFO]: Connected to MongoDB
+2025-04-23 23:35:18 [INFO]: Server running on port 80
+2025-04-23 23:37:51 [INFO]: Connected to MongoDB
+2025-04-23 23:37:51 [INFO]: Server running on port 80

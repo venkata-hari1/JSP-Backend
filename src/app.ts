@@ -3,13 +3,16 @@ import logger from './Utils/WistonConfig'
 import dotenv from 'dotenv'
 import MainRoute from './routes/Main'
 import { ConnectDb } from './connect/db'
+import cors from 'cors'
 dotenv.config()
 const app=express()
 const PORT=process.env.PORT || '80'
 const MONGO_URL=process.env.MONGOURL || ''
 //middlewares
 app.use(express.json())
-app.use('/api',MainRoute)
+app.use(express.urlencoded({extended:true}))
+app.use(cors())
+app.use('/',MainRoute)
 app.use((req:Request,res:Response)=>{
     res.status(404).json({message:'Page Not Found'})
 })

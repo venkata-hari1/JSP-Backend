@@ -1,5 +1,5 @@
-import mongoose, { Schema, Document } from 'mongoose';
-interface IForm extends Document {
+import mongoose, { Schema } from 'mongoose';
+type IForm = {
   name: string;
   gender: string;
   mobile: number | null;
@@ -11,6 +11,8 @@ interface IForm extends Document {
   division: string;
   village: string;
   pincode: string;
+  dateofbirth:Date;
+  housetype:string;
   adults: {
     male: number;
     female: number;
@@ -34,93 +36,38 @@ interface IForm extends Document {
     rythuBandhu: string;
     ration: string;
     tidcoHouses: string;
+    nogovtSchemes:string
   };
   issues: string;
 }
 
 // Define the Mongoose schema
 const FormSchema: Schema = new Schema(
-  {
- 
-    name: {
-      type: String,
-      required:true,
-      trim: true,
-    },
-    gender: {
-      type: String,
-      required:true,
-      enum:['Male', 'Female', 'Other'],
-    },
-    mobile: {
-      type: Number,
-      required:true
-    },
-    voterId: {
-      type: String,
-      required:true,
-      enum:['Yes','No'],
-    },
-    janasenaMember: {
-      type: String,
-      required:true,
-      enum: ['Yes', 'No'],
-    },
-    houseNo: {
-      type: String,
-      required:true,
-      trim: true,
-    },
-    district: {
-      type: String,
-      required:true,
-      trim: true,
-    },
-    constituency: {
-      type: String,
-      required:true,
-      trim: true,
-    },
-    division: {
-      type: String,
-      required:true,
-      trim: true,
-    },
-    village: {
-      type: String,
-      required:true,
-      trim: true,
-    },
-    pincode: {
-      type: String,
-      required:true,
-    },
-    adults: {
-      male: {
-        type: Number,
-        required: true,
-        min: 0,
-        default: 0,
-      },
-      female: {
-        type: Number,
-        required: true,
-        min:0,
-        default: 0,
-      },
-    },
+  {name: {type: String,trim: true},
+    gender: {type: String},
+    dateofbirth:{type:Date},
+    mobile: {type: Number},
+    voterId: {type: String,},
+    janasenaMember: {type: String},
+    houseNo: {type: String,trim: true},
+    housetype:{type:String},
+    district: {type: String,trim: true},
+    constituency: {type: String,trim: true},
+    division: {type: String,trim: true},
+    village: {type: String,trim: true},
+    pincode: {type: String},
+    adults: {male: {type: Number,min: 0,default: 0},
+    female: {type: Number,min:0,default: 0},},
     adultsArray: {
-      males: [
-        {
+      males: [{
           name: {
             type: String,
-            required: true,
+            
             trim: true,
           },
           option: {
             type: String,
-            enum:['Yes','No'],
-            required: true,
+            
           
           },
         },
@@ -129,13 +76,12 @@ const FormSchema: Schema = new Schema(
         {
           name: {
             type: String,
-            required: true,
+            
             trim: true,
           },
           option: {
             type: String,
-            enum:['Yes','No'],
-            required: true,
+            
           },
         },
       ],
@@ -143,68 +89,51 @@ const FormSchema: Schema = new Schema(
     futureVoters: {
       boy: {
         type: Number,
-        required: true,
+        
         min: 0,
         default: 0,
       },
       girl: {
         type: Number,
-        required: true,
+        
         min:0,
         default: 0,
       },
     },
-    membersInFamily: {
-      type: Number,
-      required: true,
-      min: 0,
-      default: 0,
-    },
-    employmentStatus: {
-      type: String,
-      required: true,
-      trim: true,
-    },
-    education: {
-      type: String,
-      required:true,
-      trim: true,
-    },
+    membersInFamily: {type: Number,min: 0,default: 0 },
+    employmentStatus: {type: String,trim: true},
+    education: {type: String,trim: true},
     govtSchemes: {
       educationBenefits: {
         type: String,
-        enum: ['Yes', 'No'],
         default: 'No',
       },
       pension: {
         type: String,
-        enum: ['Yes', 'No'],
         default: 'No',
       },
       pensionForDisabled: {
         type: String,
-        enum: ['Yes', 'No'],
         default: 'No',
       },
       medicalBenefits: {
         type: String,
-        enum: ['Yes', 'No'],
         default: 'No',
       },
       rythuBandhu: {
         type: String,
-        enum: ['Yes', 'No'],
         default: 'No',
       },
       ration: {
         type: String,
-        enum: ['Yes', 'No'],
         default: 'No',
       },
       tidcoHouses: {
         type: String,
-        enum: ['Yes', 'No'],
         default: 'No',
+      },
+      nogovtSchemes:{
+        type:String,
       },
     },
     issues: {
@@ -217,5 +146,5 @@ const FormSchema: Schema = new Schema(
     timestamps: true,
   }
 );
-
+FormSchema.index({mobile:1},{unique:true})
 export default mongoose.model<IForm>('Form', FormSchema);

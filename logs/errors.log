@@ -6,3 +6,42 @@
 2025-04-14 13:13:28 [ERROR]: MongoDB connection error: bad auth : authentication failed
 2025-04-14 13:13:28 [ERROR]: Failed to start server: bad auth : authentication failed
 2025-04-14 13:13:28 [ERROR]: MongoDB connection error: bad auth : authentication failed
+2025-04-22 15:55:25 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:55:25 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:55:25 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:55:42 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:55:42 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:55:42 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:36 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:36 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:36 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:50 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:50 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:56:50 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:33 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:33 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:33 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:54 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:54 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:54 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:58 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:58 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:57:58 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:01 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:01 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:01 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:10 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:10 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:10 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:14 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:14 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:14 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:24 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:24 [ERROR]: Failed to start server: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-22 15:58:24 [ERROR]: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net
+2025-04-23 19:08:29 [ERROR]: MongoDB connection error: Socket 'secureConnect' timed out after 13826ms (connectTimeoutMS: 10000)
+2025-04-23 19:08:29 [ERROR]: Failed to start server: Socket 'secureConnect' timed out after 13826ms (connectTimeoutMS: 10000)
+2025-04-23 19:08:29 [ERROR]: MongoDB connection error: Socket 'secureConnect' timed out after 13826ms (connectTimeoutMS: 10000)
+2025-04-23 19:09:19 [ERROR]: MongoDB connection error: Socket 'secureConnect' timed out after 14698ms (connectTimeoutMS: 10000)
+2025-04-23 19:09:19 [ERROR]: Failed to start server: Socket 'secureConnect' timed out after 14698ms (connectTimeoutMS: 10000)
+2025-04-23 19:09:19 [ERROR]: MongoDB connection error: Socket 'secureConnect' timed out after 14698ms (connectTimeoutMS: 10000)
