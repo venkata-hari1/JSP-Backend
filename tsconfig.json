@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
-    /* Language and Environment */
-    "target": "es2016", /* Compatible with Node.js versions supported by Vercel */
-    "module": "commonjs", /* Required for Node.js and Vercel’s serverless functions */
-    "outDir": "./dist", /* Output compiled JavaScript to a 'dist' folder */
-    "rootDir": "./src", /* Specify the source folder to maintain structure in 'dist' */
-    "esModuleInterop": true, /* Support for importing CommonJS modules like Express */
-    "forceConsistentCasingInFileNames": true, /* Prevent case-sensitivity issues */
-    "strict": true, /* Enable strict type-checking for better code quality */
-    "skipLibCheck": true, /* Speed up compilation */
-    "sourceMap": true, /* Generate source maps for debugging */
-    "noEmitOnError": true /* Prevent emitting broken JavaScript if there are TypeScript errors */
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "noEmitOnError": true
   },
-  "include": ["src/**/*"], /* Compile all TypeScript files in the 'src' folder */
-  "exclude": ["node_modules", "dist"] /* Exclude node_modules and compiled output */
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
