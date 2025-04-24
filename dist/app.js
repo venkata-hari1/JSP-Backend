@@ -12,7 +12,7 @@ const cors_1 = __importDefault(require("cors"));
 dotenv_1.default.config();
 const PORT = process.env.PORT || 80;
 const app = (0, express_1.default)();
-const MONGO_URL = process.env.MONGOURL || '';
+const MONGO_URL = process.env.MONGOURL || 'mongodb+srv://venkatahari:1234@cluster0.rebc4ph.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 // Middlewares
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
