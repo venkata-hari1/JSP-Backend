@@ -10,13 +10,14 @@ const Main_1 = __importDefault(require("./routes/Main"));
 const db_1 = require("./connect/db");
 const cors_1 = __importDefault(require("cors"));
 dotenv_1.default.config();
+const PORT = process.env.PORT || 80;
 const app = (0, express_1.default)();
 const MONGO_URL = process.env.MONGOURL || '';
 // Middlewares
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
 app.use((0, cors_1.default)());
-app.use('/', Main_1.default);
+app.use('/api', Main_1.default);
 // 404 Handler
 app.use((req, res) => {
     res.status(404).json({ message: 'Page Not Found' });
@@ -32,6 +33,11 @@ app.use((err, req, res, next) => {
         stack: err.stack,
     });
 });
+if (process.env.NODE_ENV !== 'production') {
+    app.listen(PORT, () => {
+        WistonConfig_1.default.info(`Server running on port ${PORT}`);
+    });
+}
 // Connect to MongoDB (Vercel will call this when the function is invoked)
 (0, db_1.ConnectDb)(MONGO_URL).catch((error) => {
     WistonConfig_1.default.error('Failed to connect to MongoDB:', error);

@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const Voter_1 = __importDefault(require("./Voter"));
 const Auth_1 = __importDefault(require("./Auth"));
 const router = express_1.default.Router();
-router.use('/api', Voter_1.default);
+router.use('/voter', Voter_1.default);
 router.use('/auth', Auth_1.default);
 exports.default = router;
 //# sourceMappingURL=Main.js.map

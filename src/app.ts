@@ -6,7 +6,7 @@ import { ConnectDb } from './connect/db';
 import cors from 'cors';
 
 dotenv.config();
-
+const PORT=process.env.PORT || 80
 const app = express();
 const MONGO_URL = process.env.MONGOURL || '';
 
@@ -14,7 +14,7 @@ const MONGO_URL = process.env.MONGOURL || '';
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
-app.use('/', MainRoute);
+app.use('/api', MainRoute);
 
 // 404 Handler
 app.use((req: Request, res: Response) => {
@@ -32,7 +32,11 @@ app.use((err: { status: number; message: string; stack: string }, req: Request, 
     stack: err.stack,
   });
 });
-
+if (process.env.NODE_ENV !== 'production') {
+    app.listen(PORT, () => {
+      logger.info(`Server running on port ${PORT}`);
+    });
+  }
 // Connect to MongoDB (Vercel will call this when the function is invoked)
 ConnectDb(MONGO_URL).catch((error) => {
   logger.error('Failed to connect to MongoDB:', error);
