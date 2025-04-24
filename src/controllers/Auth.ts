@@ -2,7 +2,7 @@ import express, { NextFunction, Request, Response } from 'express'
 import jwt from 'jsonwebtoken'
 import AuthSchema, { IProps } from '../model/AuthSchema'
 import mongoose from 'mongoose'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import { NodeType, PromiseType } from '../Utils/Type'
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;

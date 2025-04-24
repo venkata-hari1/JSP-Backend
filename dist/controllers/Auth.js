@@ -16,7 +16,7 @@ exports.EditUser = exports.login = exports.register = void 0;
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const AuthSchema_1 = __importDefault(require("../model/AuthSchema"));
 const mongoose_1 = __importDefault(require("mongoose"));
-const bcrypt_1 = __importDefault(require("bcrypt"));
+const bcryptjs_1 = __importDefault(require("bcryptjs"));
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
 const register = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
@@ -50,8 +50,8 @@ const register = (req, res, next) => __awaiter(void 0, void 0, void 0, function*
             session.endSession();
             return res.status(422).json({ status: false, message: 'Password must be at least 8 characters long and include at least one letter and one number', });
         }
-        const salt = yield bcrypt_1.default.genSalt(10);
-        const hash = yield bcrypt_1.default.hash(password, salt);
+        const salt = yield bcryptjs_1.default.genSalt(10);
+        const hash = yield bcryptjs_1.default.hash(password, salt);
         const user = new AuthSchema_1.default({ admin, email, password: hash });
         yield user.save({ session });
         yield session.commitTransaction();
@@ -75,7 +75,7 @@ const login = (req, res, next) => __awaiter(void 0, void 0, void 0, function* ()
         if (!exist) {
             return res.status(404).json({ status: false, message: 'User not found' });
         }
-        const isMatch = yield bcrypt_1.default.compare(password, exist.password);
+        const isMatch = yield bcryptjs_1.default.compare(password, exist.password);
         if (!isMatch) {
             return res.status(422).json({ status: false, message: 'Invalid password' });
         }
@@ -125,8 +125,8 @@ const EditUser = (req, res, next) => __awaiter(void 0, void 0, void 0, function*
         if (admin)
             user.admin = admin;
         if (password) {
-            const salt = yield bcrypt_1.default.genSalt(10);
-            user.password = yield bcrypt_1.default.hash(password, salt);
+            const salt = yield bcryptjs_1.default.genSalt(10);
+            user.password = yield bcryptjs_1.default.hash(password, salt);
         }
         yield user.save({ session });
         yield session.commitTransaction();
