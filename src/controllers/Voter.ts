@@ -180,9 +180,11 @@ export const GetSchemesVisionMission = async (req: Request, res: Response, next:
       missionProjection = { te_mission: 1 };
     }
 
-    const schemes = await GovernmentSchemes.find({}, schemeProjection).lean();
-    const vision = await JanasenaVision.find({}, visionProjection).lean();
-    const mission = await JanasenaMission.find({}, missionProjection).lean();
+    const [schemes, vision, mission] = await Promise.all([
+      GovernmentSchemes.find().select(schemeProjection).lean(),
+      JanasenaVision.find().select(visionProjection).lean(),
+      JanasenaMission.find().select(missionProjection).lean(),
+    ]);
 
     return res.status(200).json({
       status: true,

@@ -176,9 +176,11 @@ const GetSchemesVisionMission = (req, res, next) => __awaiter(void 0, void 0, vo
             visionProjection = { te_vision: 1 };
             missionProjection = { te_mission: 1 };
         }
-        const schemes = yield GovtSchema_1.default.find({}, schemeProjection).lean();
-        const vision = yield JanasenaVision_1.default.find({}, visionProjection).lean();
-        const mission = yield JanasenaMission_1.default.find({}, missionProjection).lean();
+        const [schemes, vision, mission] = yield Promise.all([
+            GovtSchema_1.default.find().select(schemeProjection).lean(),
+            JanasenaVision_1.default.find().select(visionProjection).lean(),
+            JanasenaMission_1.default.find().select(missionProjection).lean(),
+        ]);
         return res.status(200).json({
             status: true,
             data: {
