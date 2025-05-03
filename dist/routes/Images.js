@@ -37,19 +37,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const controller = __importStar(require("../controllers/Voter"));
+const multer_1 = __importDefault(require("multer"));
+const controller = __importStar(require("../controllers/Images"));
 const router = express_1.default.Router();
-router.post('/voterinfo', controller.create);
-router.get('/voters', controller.Voters);
-router.get('/voter/:id', controller.VoterInfo);
-router.patch('/janasena/mission', controller.Janasena_Mission);
-router.patch('/janasena/vision', controller.Janasena_Vision);
-router.post('/janasena/schemes', controller.Government_Schemes);
-router.get('/janasena', controller.GetSchemesVisionMission);
-router.get('/admin/janasena', controller.GetSchemesVisionMission);
-router.patch('/admin/scheme/:id', controller.Update_Schema);
-router.patch('/admin/deletescheme/:pid/:cid', controller.deleteScheme);
-router.post('/admin/mapdistricts', controller.mapDistricts1);
-router.get('/admin/mapdistricts', controller.mapDistricts);
+const upload = (0, multer_1.default)({ storage: multer_1.default.memoryStorage() });
+router.post('/uploadimage', upload.single('file'), controller.uploadImage);
+router.get('/fetchimages', controller.getImages);
+router.delete('/deleteimage/:public_id', controller.deleteImage);
 exports.default = router;
-//# sourceMappingURL=Voter.js.map
+//# sourceMappingURL=Images.js.map

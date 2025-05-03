@@ -12,11 +12,22 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.GetSchemesVisionMission = exports.Government_Schemes = exports.Janasena_Vision = exports.Janasena_Mission = exports.VoterInfo = exports.Voters = exports.create = void 0;
+exports.mapDistricts = exports.mapDistricts1 = exports.deleteScheme = exports.Update_Schema = exports.GetSchemesVisionMission = exports.Government_Schemes = exports.Janasena_Vision = exports.Janasena_Mission = exports.VoterInfo = exports.Voters = exports.create = void 0;
 const Voter_1 = __importDefault(require("../model/Voter"));
 const JanasenaMission_1 = __importDefault(require("../model/JanasenaMission"));
 const JanasenaVision_1 = __importDefault(require("../model/JanasenaVision"));
 const GovtSchema_1 = __importDefault(require("../model/GovtSchema"));
+const GovtSchema_2 = __importDefault(require("../model/GovtSchema"));
+const en_districts_1 = __importDefault(require("../model/Districts/en_districts"));
+const hi_districts_1 = __importDefault(require("../model/Districts/hi_districts"));
+const te_districts_1 = __importDefault(require("../model/Districts/te_districts"));
+const uuid_1 = require("uuid");
+const mongoose_1 = __importDefault(require("mongoose"));
+const districtModels = {
+    en: en_districts_1.default,
+    te: te_districts_1.default,
+    hi: hi_districts_1.default,
+};
 const create = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const exist = yield Voter_1.default.findOne({ mobile: req.body.mobile });
@@ -145,7 +156,7 @@ const Government_Schemes = (req, res, next) => __awaiter(void 0, void 0, void 0,
         if (lang === 'te')
             updateField['telugu'] = { scheme };
         const updated = yield GovtSchema_1.default.findOneAndUpdate({}, { $push: updateField }, { upsert: true, new: true });
-        return res.status(200).json({ status: true, data: updated });
+        return res.status(200).json({ status: true, data: updateField });
     }
     catch (err) {
         next(err);
@@ -176,10 +187,13 @@ const GetSchemesVisionMission = (req, res, next) => __awaiter(void 0, void 0, vo
             visionProjection = { te_vision: 1 };
             missionProjection = { te_mission: 1 };
         }
-        const [schemes, vision, mission] = yield Promise.all([
-            GovtSchema_1.default.find().select(schemeProjection).lean(),
-            JanasenaVision_1.default.find().select(visionProjection).lean(),
-            JanasenaMission_1.default.find().select(missionProjection).lean(),
+        const visionKey = `${type}_vision`;
+        const missionKey = `${type}_mission`;
+        const schemeKey = type === 'en' ? 'english' : type === 'hi' ? 'hindi' : 'telugu';
+        const [vision, mission, schemes] = yield Promise.all([
+            JanasenaVision_1.default.findOne().select({ [visionKey]: 1, _id: 0 }).lean(),
+            JanasenaMission_1.default.findOne().select({ [missionKey]: 1, _id: 0 }).lean(),
+            GovtSchema_1.default.findOne().select({ [schemeKey]: 1, _id: 1 }).lean(),
         ]);
         return res.status(200).json({
             status: true,
@@ -195,4 +209,219 @@ const GetSchemesVisionMission = (req, res, next) => __awaiter(void 0, void 0, vo
     }
 });
 exports.GetSchemesVisionMission = GetSchemesVisionMission;
+const Update_Schema = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+    var _a, _b, _c;
+    try {
+        const { id } = req.params;
+        const { scheme } = req.body;
+        if (!scheme || scheme.trim() === "") {
+            return res.status(422).json({ status: false, message: "scheme can't be empty" });
+        }
+        const doc = yield GovtSchema_2.default.findOne({
+            $or: [
+                { 'english._id': id },
+                { 'hindi._id': id },
+                { 'telugu._id': id }
+            ]
+        });
+        if (!doc) {
+            return res.status(404).json({ status: false, message: 'Not found' });
+        }
+        let result = null;
+        const [englishMatch, hindiMatch, teluguMatch] = yield Promise.all([
+            (_a = doc === null || doc === void 0 ? void 0 : doc.english) === null || _a === void 0 ? void 0 : _a.find((x) => x._id.toString() === id.toString()),
+            (_b = doc === null || doc === void 0 ? void 0 : doc.hindi) === null || _b === void 0 ? void 0 : _b.find((x) => x._id.toString() === id.toString()),
+            (_c = doc === null || doc === void 0 ? void 0 : doc.telugu) === null || _c === void 0 ? void 0 : _c.find((x) => x._id.toString() === id.toString())
+        ]);
+        switch (true) {
+            case !!englishMatch: {
+                englishMatch.scheme = scheme;
+                result = englishMatch;
+                break;
+            }
+            case !!hindiMatch: {
+                hindiMatch.scheme = scheme;
+                result = hindiMatch;
+                break;
+            }
+            case !!teluguMatch: {
+                teluguMatch.scheme = scheme;
+                result = teluguMatch;
+                break;
+            }
+            default: {
+                break;
+            }
+        }
+        yield doc.save();
+        return res.status(200).json({ status: true, data: result });
+    }
+    catch (err) {
+        next(err);
+    }
+});
+exports.Update_Schema = Update_Schema;
+const deleteScheme = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const { type } = req.query;
+        const { pid, cid } = req.params;
+        if (!type || !pid || !cid) {
+            return res.status(422).json({ status: false, message: 'Missing required parameters.' });
+        }
+        const schemeKey = type === 'en' ? 'english' : type === 'hi' ? 'hindi' : 'telugu';
+        const result = yield GovtSchema_1.default.findByIdAndUpdate(pid, { $pull: { [schemeKey]: { _id: cid } } }, { new: true });
+        if (!result) {
+            return res.status(404).json({ status: false, message: 'Scheme not found or already deleted.' });
+        }
+        res.status(200).json({ status: true, message: 'Scheme deleted successfully.', updatedData: result });
+    }
+    catch (err) {
+        next(err);
+    }
+});
+exports.deleteScheme = deleteScheme;
+const mapDistricts1 = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+    const session = yield mongoose_1.default.startSession();
+    session.startTransaction();
+    try {
+        const { type } = req.query;
+        const model = districtModels[type];
+        if (!type) {
+            yield session.abortTransaction();
+            session.endSession();
+            return res.status(422).json({ status: false, message: 'Type is required' });
+        }
+        const { district, constituency, division, village, pincode } = req.body;
+        if (!district || !constituency || !division || !village || !pincode) {
+            yield session.abortTransaction();
+            session.endSession();
+            return res.status(422).json({ status: false, message: 'All fields are required' });
+        }
+        switch (type) {
+            case 'en': {
+                const data = new en_districts_1.default(Object.assign({}, req.body));
+                yield data.save({ session });
+                break;
+            }
+            case 'te': {
+                const data = new te_districts_1.default(Object.assign({}, req.body));
+                yield data.save({ session });
+                break;
+            }
+            case 'hi': {
+                const data = new hi_districts_1.default(Object.assign({}, req.body));
+                yield data.save({ session });
+                break;
+            }
+            default: {
+                yield session.abortTransaction();
+                session.endSession();
+                return res.status(400).json({ status: false, message: 'Invalid type specified' });
+            }
+        }
+        yield session.commitTransaction();
+        session.endSession();
+        return res.status(200).json({ status: true });
+    }
+    catch (err) {
+        yield session.abortTransaction();
+        session.endSession();
+        next(err);
+    }
+});
+exports.mapDistricts1 = mapDistricts1;
+const mapDistricts = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const { type } = req.query;
+        const model = districtModels[type];
+        if (!type) {
+            return res.status(422).json({ status: false, message: 'Type is required' });
+        }
+        const result = yield model.aggregate([
+            {
+                $group: {
+                    _id: {
+                        district: "$district",
+                        constituency: "$constituency",
+                        division: "$division"
+                    },
+                    villages: {
+                        $push: {
+                            village: "$village",
+                            pincode: "$pincode"
+                        }
+                    }
+                }
+            },
+            {
+                $group: {
+                    _id: {
+                        district: "$_id.district",
+                        constituency: "$_id.constituency"
+                    },
+                    divisions: {
+                        $push: {
+                            division: "$_id.division",
+                            villages: "$villages"
+                        }
+                    }
+                }
+            },
+            {
+                $group: {
+                    _id: "$_id.district",
+                    constituencies: {
+                        $push: {
+                            constituency: "$_id.constituency",
+                            divisions: "$divisions"
+                        }
+                    }
+                }
+            },
+            {
+                $project: {
+                    _id: 0,
+                    district: "$_id",
+                    constituencies: 1
+                }
+            }
+        ]);
+        // Now map the aggregation result to include UUIDs and hierarchical structure
+        const structured = {
+            districts: result.map((d) => {
+                const districtId = (0, uuid_1.v4)();
+                return {
+                    id: districtId,
+                    name: d.district,
+                    constituencies: d.constituencies.map((c) => {
+                        const constituencyId = (0, uuid_1.v4)();
+                        return {
+                            id: constituencyId,
+                            name: c.constituency,
+                            divisions: c.divisions.map((div) => {
+                                const divisionId = (0, uuid_1.v4)();
+                                return {
+                                    id: divisionId,
+                                    name: div.division,
+                                    areas: div.villages.map((v) => ({
+                                        id: (0, uuid_1.v4)(),
+                                        name: v.village,
+                                        pincode: v.pincode
+                                    }))
+                                };
+                            })
+                        };
+                    })
+                };
+            })
+        };
+        // Send the structured data as a JSON response
+        res.json(structured);
+    }
+    catch (err) {
+        // Handle any errors and pass to next middleware
+        next(err);
+    }
+});
+exports.mapDistricts = mapDistricts;
 //# sourceMappingURL=Voter.js.map

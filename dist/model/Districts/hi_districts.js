@@ -1,0 +1,15 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const mongoose_1 = __importDefault(require("mongoose"));
+const hi_districts = new mongoose_1.default.Schema({
+    district: { type: String },
+    constituency: { type: String },
+    division: { type: String },
+    village: { type: String },
+    pincode: { type: String }
+}, { timestamps: true });
+exports.default = mongoose_1.default.model('hi_districts', hi_districts);
+//# sourceMappingURL=hi_districts.js.map
