@@ -8,7 +8,7 @@ import cors from 'cors';
 dotenv.config();
 const PORT=process.env.PORT || 80
 const app = express();
-const MONGO_URL = process.env.MONGOURL || 'mongodb+srv://venkatahari:1234@cluster0.rebc4ph.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URL = process.env.MONGOURL || '';
 
 // Middlewares
 app.use(express.json());
