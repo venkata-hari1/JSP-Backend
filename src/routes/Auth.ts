@@ -4,5 +4,6 @@ import { Validate } from '../Utils/Validation'
 const router=express.Router()
 router.post('/register',controller.register)
 router.post('/login',controller.login)
-router.patch('/edituser',Validate,controller.EditUser)
+router.patch('/edituser',Validate ,controller.EditUser)
+router.get('/user',Validate ,controller.getUser)
 export default router

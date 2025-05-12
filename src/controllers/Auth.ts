@@ -7,6 +7,7 @@ import { NodeType, PromiseType } from '../Utils/Type'
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const passwordRegex =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
+const indianPhoneRegex = /^[6-9]\d{9}$/;
 export const register = async (
   req: Request<IProps>,
   res: Response,
@@ -82,6 +83,7 @@ export const login = async (req: Request<IProps>, res: Response, next: NextFunct
                 id: exist._id
             }
         }
+        AuthSchema.findByIdAndUpdate({_id:exist._id},{$set:{isAdmin:true}},{new:true})
         jwt.sign(payload, process.env.JWT_SECRET as string, { expiresIn: '10d' }, (err, token) => {
             if (err) {
                 return res.status(401).json({ status: false, message: 'Token generation falied' })
@@ -98,7 +100,7 @@ export const EditUser = async (req:Request<IProps > | NodeType, res: Response, n
     const session = await mongoose.startSession();
     session.startTransaction();
     try {
-      const { email, password,admin } = req.body;
+      const { email, password,admin,mobile } = req.body;
   
       if (email && !emailRegex.test(email)) {
         await session.abortTransaction();
@@ -112,6 +114,15 @@ export const EditUser = async (req:Request<IProps > | NodeType, res: Response, n
         return res.status(422).json({
           status: false,
           message: 'Password must be at least 8 characters long and include at least one letter and one number',
+        });
+      }
+  
+      if (mobile && !indianPhoneRegex.test(mobile)) {
+        await session.abortTransaction();
+        session.endSession();
+        return res.status(422).json({
+          status: false,
+          message: 'Invalid Indian mobile number. It must be 10 digits starting with 6-9.',
         });
       }
   
@@ -129,6 +140,7 @@ export const EditUser = async (req:Request<IProps > | NodeType, res: Response, n
         const salt = await bcrypt.genSalt(10);
         user.password = await bcrypt.hash(password, salt);
       }
+      if(mobile) user.mobile=mobile
   
       await user.save({ session });
       await session.commitTransaction();
@@ -141,4 +153,13 @@ export const EditUser = async (req:Request<IProps > | NodeType, res: Response, n
       next(err);
     }
   };
-  
+export const getUser=async(req:NodeType,res:Response,next:NextFunction)=>{
+try{
+  const data=await AuthSchema.findById(req.user.id).select('admin email password mobile')
+  res.status(200).json({status:true,data})
+
+}
+catch(err){
+  next(err)
+}
+}

@@ -12,15 +12,15 @@ export const uploadImage = async (req: NodeType, res: Response, next: NextFuncti
     try {
         const file = req.file;
         if (!file) {
-            return res.status(400).json({ error: 'Image file is required' });
+            return res.status(422).json({status:false, message: 'Image file is required' });
         }
         const allowedTypes = ['image/jpeg', 'image/png', 'image/jpg', 'image/webp'];
         if (!allowedTypes.includes(file.mimetype)) {
-            return res.status(400).json({ error: 'Only JPG, PNG, JPEG, and WEBP images are allowed' });
+            return res.status(422).json({status:false, message: 'Only JPG, PNG, JPEG, and WEBP images are allowed' });
         }
         const maxSize = 2 * 1024 * 1024;
         if (file.size > maxSize) {
-            return res.status(400).json({ error: 'Image must not exceed 2MB' });
+            return res.status(22).json({ status:false,message: 'Image must not exceed 2MB' });
         }
         const stream = cloudinary.uploader.upload_stream(
             { folder: 'my_uploads' },
@@ -45,7 +45,7 @@ export const deleteImage = async (req: Request, res: Response, next: NextFunctio
       const cloudinaryResult = await cloudinary.uploader.destroy(public_id);
   
       if (cloudinaryResult.result !== 'ok') {
-        res.status(500).json({ error: 'Cloudinary deletion failed' });
+        res.status(500).json({ status:false,message: 'Cloudinary deletion failed' });
       }
   
      res.status(200).json({ status: true, message: 'Deleted successfully' });

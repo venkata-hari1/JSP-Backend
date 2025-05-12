@@ -30,31 +30,45 @@ catch(err){
 }
 
 export const Voters = async (req: Request, res: Response, next: NextFunction): Promise<any> => {
-    try {
-      const page = Number(req.query.page) || 1;
-      const limit = Number(req.query.limit) || 6;
-      const skip = (page - 1) * limit;
-  
-      const [data, total] = await Promise.all([
-        Voter.find({}).skip(skip).limit(limit).sort({ createdAt: -1 }),
-        Voter.countDocuments()
-      ]);
-  
-      return res.status(200).json({
-        status: true,
-        pagination: {
-          page,
-          limit
-        },
-        totalPages: Math.ceil(total / limit),
-        totalUsers: total ,
-        data,
-        
-      });
-    } catch (err) {
-      next(err);
+  try {
+    const page = Number(req.query.page) || 1;
+    const limit = Number(req.query.limit) || 6;
+    const skip = (page - 1) * limit;
+
+    const search = (req.query.search as string) || "";
+    const sortField = (req.query.sortField as string) || "createdAt";
+    const sortOrder = req.query.sortOrder === "asc" ? 1 : -1; 
+
+    const filter: any = {};
+
+    if (search) {
+      filter.district = { $regex: new RegExp(search, 'i') }; 
     }
+
+    const [data, total] = await Promise.all([
+      Voter.find(filter)
+        .select('district membersInFamily adultsArray adults name mobile') 
+        .skip(skip)
+        .limit(limit)
+        .sort({ [sortField]: sortOrder }),
+      Voter.countDocuments(filter)
+    ]);
+
+    return res.status(200).json({
+      status: true,
+      pagination: {
+        page,
+        limit
+      },
+      totalPages: Math.ceil(total / limit),
+      totalUsers: total,
+      data,
+    });
+  } catch (err) {
+    next(err);
+  }
 };
+
 export const VoterInfo= async (req: Request, res: Response, next: NextFunction): Promise<any> => {
     try {
         const {id}=req.params
@@ -314,7 +328,11 @@ export const mapDistricts1 = async (req: Request, res: Response, next: NextFunct
       session.endSession()
       return res.status(422).json({ status: false, message: 'All fields are required' });
     } 
-  
+   if(pincode.length<6 || pincode.length>6){
+    await session.abortTransaction()
+    session.endSession()
+    return res.status(422).json({ status: false, message: 'Pincode must be 6 digits' });
+   }
     switch(type){
      case 'en':{
       const data=new en_districts({...req.body})

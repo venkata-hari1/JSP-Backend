@@ -6,10 +6,8 @@ export const ConnectDb = async (url: string) => {
         if (typeof url !== 'string' || !url) {
             throw new Error('Invalid MongoDB URL');
         }
-        await mongoose.connect(url, {
-            connectTimeoutMS: 10000,
-        });
-
+        await mongoose.connect(url);
+ 
         logger.info('Connected to MongoDB');
     } catch (error) {
         logger.error('MongoDB connection error:', error);
