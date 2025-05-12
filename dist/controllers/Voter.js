@@ -47,9 +47,20 @@ const Voters = (req, res, next) => __awaiter(void 0, void 0, void 0, function* (
         const page = Number(req.query.page) || 1;
         const limit = Number(req.query.limit) || 6;
         const skip = (page - 1) * limit;
+        const search = req.query.search || "";
+        const sortField = req.query.sortField || "createdAt";
+        const sortOrder = req.query.sortOrder === "asc" ? 1 : -1;
+        const filter = {};
+        if (search) {
+            filter.district = { $regex: new RegExp(search, 'i') };
+        }
         const [data, total] = yield Promise.all([
-            Voter_1.default.find({}).skip(skip).limit(limit).sort({ createdAt: -1 }),
-            Voter_1.default.countDocuments()
+            Voter_1.default.find(filter)
+                .select('district membersInFamily adultsArray adults name mobile')
+                .skip(skip)
+                .limit(limit)
+                .sort({ [sortField]: sortOrder }),
+            Voter_1.default.countDocuments(filter)
         ]);
         return res.status(200).json({
             status: true,
@@ -296,6 +307,11 @@ const mapDistricts1 = (req, res, next) => __awaiter(void 0, void 0, void 0, func
             yield session.abortTransaction();
             session.endSession();
             return res.status(422).json({ status: false, message: 'All fields are required' });
+        }
+        if (pincode.length < 6 || pincode.length > 6) {
+            yield session.abortTransaction();
+            session.endSession();
+            return res.status(422).json({ status: false, message: 'Pincode must be 6 digits' });
         }
         switch (type) {
             case 'en': {

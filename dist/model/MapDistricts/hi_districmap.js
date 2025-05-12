@@ -32,18 +32,29 @@ var __importStar = (this && this.__importStar) || (function () {
         return result;
     };
 })();
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-const express_1 = __importDefault(require("express"));
-const multer_1 = __importDefault(require("multer"));
-const controller = __importStar(require("../controllers/Images"));
-const Validation_1 = require("../Utils/Validation");
-const router = express_1.default.Router();
-const upload = (0, multer_1.default)({ storage: multer_1.default.memoryStorage() });
-router.post('/uploadimage', Validation_1.Validate, upload.single('file'), controller.uploadImage);
-router.get('/fetchimages', controller.getImages);
-router.delete('/deleteimage/:public_id', Validation_1.Validate, controller.deleteImage);
-exports.default = router;
-//# sourceMappingURL=Images.js.map
+const mongoose_1 = __importStar(require("mongoose"));
+const VillageSchema = new mongoose_1.Schema({
+    name: { type: String, required: true },
+    villagekey: { type: String, required: true },
+    pincode: { type: String, required: true },
+});
+const DivisionSchema = new mongoose_1.Schema({
+    divisionname: { type: String, required: true },
+    divisionkey: { type: String, required: true, index: true },
+    villages: { type: [VillageSchema], default: [] },
+});
+const ConstituencySchema = new mongoose_1.Schema({
+    constituencename: { type: String, required: true },
+    constituencykey: { type: String, required: true, index: true },
+    divisions: { type: [DivisionSchema], default: [] },
+});
+const hi_districmap = new mongoose_1.Schema({
+    districtname: { type: String, required: true },
+    districtkey: { type: String, required: true, index: true },
+    constituencies: { type: [ConstituencySchema], default: [] },
+    private: { type: Boolean, default: false }
+});
+const DistrictModel = mongoose_1.default.model('hi_districmap', hi_districmap);
+exports.default = DistrictModel;
+//# sourceMappingURL=hi_districmap.js.map

@@ -20,9 +20,7 @@ const ConnectDb = (url) => __awaiter(void 0, void 0, void 0, function* () {
         if (typeof url !== 'string' || !url) {
             throw new Error('Invalid MongoDB URL');
         }
-        yield mongoose_1.default.connect(url, {
-            connectTimeoutMS: 10000,
-        });
+        yield mongoose_1.default.connect(url);
         WistonConfig_1.default.info('Connected to MongoDB');
     }
     catch (error) {

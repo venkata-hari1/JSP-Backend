@@ -43,5 +43,6 @@ const router = express_1.default.Router();
 router.post('/register', controller.register);
 router.post('/login', controller.login);
 router.patch('/edituser', Validation_1.Validate, controller.EditUser);
+router.get('/user', Validation_1.Validate, controller.getUser);
 exports.default = router;
 //# sourceMappingURL=Auth.js.map
