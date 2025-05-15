@@ -41,7 +41,7 @@ export const create_districts = async (
     }
 
     if (type === 'hi' && containsNonHindi(district)) {
-      return res.status(22).json({
+      return res.status(422).json({
         status: false,
         message: 'contains non-Hindi characters',
       });
@@ -153,7 +153,7 @@ export const create_constituencies = async (
     }
 
     if (type === 'hi' && containsNonHindi(constituencename)) {
-      return res.status(22).json({
+      return res.status(422).json({
         status: false,
         message: 'contains non-Hindi characters',
       });
@@ -243,7 +243,7 @@ export const create_divisons = async (
     }
 
     if (type === 'hi' && containsNonHindi(divisionname)) {
-      return res.status(22).json({
+      return res.status(422).json({
         status: false,
         message: 'contains non-Hindi characters',
       });
@@ -325,7 +325,7 @@ export const create_Village_Pincode = async (
     }
 
     if (type === 'hi' && containsNonHindi(village)) {
-      return res.status(22).json({
+      return res.status(422).json({
         status: false,
         message: 'contains non-Hindi characters',
       });
