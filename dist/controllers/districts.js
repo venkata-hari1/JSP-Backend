@@ -22,6 +22,8 @@ const districtModels = {
     te: te_districmap_1.default,
     hi: hi_districmap_1.default,
 };
+const containsNonTelugu = (text) => /[^\u0C00-\u0C7F\s.,!?()'"-]/.test(text);
+const containsNonHindi = (text) => /[^\u0900-\u097F\s.,!?()'"-]/.test(text);
 const create_districts = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { district, districtkey } = req.body;
@@ -36,6 +38,18 @@ const create_districts = (req, res, next) => __awaiter(void 0, void 0, void 0, f
             return res.status(422).json({
                 status: false,
                 error: 'Both district and districtkey are required.',
+            });
+        }
+        if (type === 'te' && containsNonTelugu(district)) {
+            return res.status(422).json({
+                status: false,
+                message: 'contains non-Telugu characters'
+            });
+        }
+        if (type === 'hi' && containsNonHindi(district)) {
+            return res.status(22).json({
+                status: false,
+                message: 'contains non-Hindi characters',
             });
         }
         const Model = districtModels[type];
@@ -127,6 +141,18 @@ const create_constituencies = (req, res, next) => __awaiter(void 0, void 0, void
                 message: 'Both constituencename and constituencykey are required.',
             });
         }
+        if (type === 'te' && containsNonTelugu(constituencename)) {
+            return res.status(422).json({
+                status: false,
+                message: 'contains non-Telugu characters'
+            });
+        }
+        if (type === 'hi' && containsNonHindi(constituencename)) {
+            return res.status(22).json({
+                status: false,
+                message: 'contains non-Hindi characters',
+            });
+        }
         const Model = districtModels[type];
         // Find the district by its ID
         const district = yield Model.findOne({ districtkey: districtkey });
@@ -192,6 +218,18 @@ const create_divisons = (req, res, next) => __awaiter(void 0, void 0, void 0, fu
                 message: 'Both divisionname and divisionkey are required.',
             });
         }
+        if (type === 'te' && containsNonTelugu(divisionname)) {
+            return res.status(422).json({
+                status: false,
+                message: 'contains non-Telugu characters'
+            });
+        }
+        if (type === 'hi' && containsNonHindi(divisionname)) {
+            return res.status(22).json({
+                status: false,
+                message: 'contains non-Hindi characters',
+            });
+        }
         const Model = districtModels[type];
         const district = yield Model.findOne({ districtkey: did });
         if (!district) {
@@ -248,6 +286,18 @@ const create_Village_Pincode = (req, res, next) => __awaiter(void 0, void 0, voi
             return res.status(422).json({
                 status: false,
                 message: 'Invalid or missing language type (en, te, hi).',
+            });
+        }
+        if (type === 'te' && containsNonTelugu(village)) {
+            return res.status(422).json({
+                status: false,
+                message: 'contains non-Telugu characters'
+            });
+        }
+        if (type === 'hi' && containsNonHindi(village)) {
+            return res.status(22).json({
+                status: false,
+                message: 'contains non-Hindi characters',
             });
         }
         const Model = districtModels[type];

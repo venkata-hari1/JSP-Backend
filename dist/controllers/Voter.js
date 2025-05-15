@@ -12,22 +12,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.mapDistricts = exports.mapDistricts1 = exports.deleteScheme = exports.Update_Schema = exports.GetSchemesVisionMission = exports.Government_Schemes = exports.Janasena_Vision = exports.Janasena_Mission = exports.VoterInfo = exports.Voters = exports.create = void 0;
+exports.deleteScheme = exports.Update_Schema = exports.GetSchemesVisionMission = exports.Government_Schemes = exports.Janasena_Vision = exports.Janasena_Mission = exports.VoterInfo = exports.Voters = exports.create = void 0;
 const Voter_1 = __importDefault(require("../model/Voter"));
 const JanasenaMission_1 = __importDefault(require("../model/JanasenaMission"));
 const JanasenaVision_1 = __importDefault(require("../model/JanasenaVision"));
 const GovtSchema_1 = __importDefault(require("../model/GovtSchema"));
 const GovtSchema_2 = __importDefault(require("../model/GovtSchema"));
-const en_districts_1 = __importDefault(require("../model/Districts/en_districts"));
-const hi_districts_1 = __importDefault(require("../model/Districts/hi_districts"));
-const te_districts_1 = __importDefault(require("../model/Districts/te_districts"));
-const uuid_1 = require("uuid");
-const mongoose_1 = __importDefault(require("mongoose"));
-const districtModels = {
-    en: en_districts_1.default,
-    te: te_districts_1.default,
-    hi: hi_districts_1.default,
-};
 const create = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const exist = yield Voter_1.default.findOne({ mobile: req.body.mobile });
@@ -136,7 +126,7 @@ exports.Janasena_Vision = Janasena_Vision;
 const Government_Schemes = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { type } = req.query;
-        const { scheme } = req.body;
+        const { scheme, key } = req.body;
         if (!type || typeof type !== "string") {
             return res.status(422).json({ status: false, message: 'Type is required' });
         }
@@ -145,8 +135,24 @@ const Government_Schemes = (req, res, next) => __awaiter(void 0, void 0, void 0,
         if (!validTypes.includes(lang)) {
             return res.status(422).json({ status: false, message: 'Invalid language type' });
         }
-        if (!scheme) {
-            return res.status(422).json({ status: false, message: 'Scheme is required' });
+        if (!scheme || !key) {
+            return res.status(422).json({ status: false, message: 'Scheme  and key both are required' });
+        }
+        const containsNonTelugu = (text) => /[^\u0C00-\u0C7F\s.,!?()'"-]/.test(text);
+        const containsNonHindi = (text) => /[^\u0900-\u097F\s.,!?()'"-]/.test(text);
+        if (lang === 'te' && containsNonTelugu(scheme)) {
+            return res.status(400).json({
+                status: false,
+                message: 'Scheme contains non-Telugu characters',
+                invalidText: scheme
+            });
+        }
+        if (lang === 'hi' && containsNonHindi(scheme)) {
+            return res.status(400).json({
+                status: false,
+                message: 'Scheme contains non-Hindi characters',
+                invalidText: scheme
+            });
         }
         // Check for duplicates in any language array
         const duplicate = yield GovtSchema_1.default.findOne({
@@ -161,11 +167,11 @@ const Government_Schemes = (req, res, next) => __awaiter(void 0, void 0, void 0,
         }
         const updateField = {};
         if (lang === 'en')
-            updateField['english'] = { scheme };
+            updateField['english'] = { scheme: scheme, key: scheme };
         if (lang === 'hi')
-            updateField['hindi'] = { scheme };
+            updateField['hindi'] = { scheme: scheme, key: scheme };
         if (lang === 'te')
-            updateField['telugu'] = { scheme };
+            updateField['telugu'] = { scheme: scheme, key: scheme };
         const updated = yield GovtSchema_1.default.findOneAndUpdate({}, { $push: updateField }, { upsert: true, new: true });
         return res.status(200).json({ status: true, data: updateField });
     }
@@ -291,153 +297,4 @@ const deleteScheme = (req, res, next) => __awaiter(void 0, void 0, void 0, funct
     }
 });
 exports.deleteScheme = deleteScheme;
-const mapDistricts1 = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    const session = yield mongoose_1.default.startSession();
-    session.startTransaction();
-    try {
-        const { type } = req.query;
-        const model = districtModels[type];
-        if (!type) {
-            yield session.abortTransaction();
-            session.endSession();
-            return res.status(422).json({ status: false, message: 'Type is required' });
-        }
-        const { district, constituency, division, village, pincode } = req.body;
-        if (!district || !constituency || !division || !village || !pincode) {
-            yield session.abortTransaction();
-            session.endSession();
-            return res.status(422).json({ status: false, message: 'All fields are required' });
-        }
-        if (pincode.length < 6 || pincode.length > 6) {
-            yield session.abortTransaction();
-            session.endSession();
-            return res.status(422).json({ status: false, message: 'Pincode must be 6 digits' });
-        }
-        switch (type) {
-            case 'en': {
-                const data = new en_districts_1.default(Object.assign({}, req.body));
-                yield data.save({ session });
-                break;
-            }
-            case 'te': {
-                const data = new te_districts_1.default(Object.assign({}, req.body));
-                yield data.save({ session });
-                break;
-            }
-            case 'hi': {
-                const data = new hi_districts_1.default(Object.assign({}, req.body));
-                yield data.save({ session });
-                break;
-            }
-            default: {
-                yield session.abortTransaction();
-                session.endSession();
-                return res.status(400).json({ status: false, message: 'Invalid type specified' });
-            }
-        }
-        yield session.commitTransaction();
-        session.endSession();
-        return res.status(200).json({ status: true });
-    }
-    catch (err) {
-        yield session.abortTransaction();
-        session.endSession();
-        next(err);
-    }
-});
-exports.mapDistricts1 = mapDistricts1;
-const mapDistricts = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
-    try {
-        const { type } = req.query;
-        const model = districtModels[type];
-        if (!type) {
-            return res.status(422).json({ status: false, message: 'Type is required' });
-        }
-        const result = yield model.aggregate([
-            {
-                $group: {
-                    _id: {
-                        district: "$district",
-                        constituency: "$constituency",
-                        division: "$division"
-                    },
-                    villages: {
-                        $push: {
-                            village: "$village",
-                            pincode: "$pincode"
-                        }
-                    }
-                }
-            },
-            {
-                $group: {
-                    _id: {
-                        district: "$_id.district",
-                        constituency: "$_id.constituency"
-                    },
-                    divisions: {
-                        $push: {
-                            division: "$_id.division",
-                            villages: "$villages"
-                        }
-                    }
-                }
-            },
-            {
-                $group: {
-                    _id: "$_id.district",
-                    constituencies: {
-                        $push: {
-                            constituency: "$_id.constituency",
-                            divisions: "$divisions"
-                        }
-                    }
-                }
-            },
-            {
-                $project: {
-                    _id: 0,
-                    district: "$_id",
-                    constituencies: 1
-                }
-            }
-        ]);
-        // Now map the aggregation result to include UUIDs and hierarchical structure
-        const structured = {
-            districts: result.map((d) => {
-                const districtId = (0, uuid_1.v4)();
-                return {
-                    id: districtId,
-                    name: d.district,
-                    constituencies: d.constituencies.map((c) => {
-                        const constituencyId = (0, uuid_1.v4)();
-                        return {
-                            id: constituencyId,
-                            name: c.constituency,
-                            divisions: c.divisions.map((div) => {
-                                const divisionId = (0, uuid_1.v4)();
-                                return {
-                                    id: divisionId,
-                                    name: div.division,
-                                    areas: div.villages.map((v) => ({
-                                        id: (0, uuid_1.v4)(),
-                                        name: v.village,
-                                        pincode: v.pincode
-                                    }))
-                                };
-                            })
-                        };
-                    })
-                };
-            })
-        };
-        // Send the structured data as a JSON response
-        res.json(structured);
-    }
-    catch (err) {
-        // Handle any errors and pass to next middleware
-        next(err);
-    }
-});
-exports.mapDistricts = mapDistricts;
 //# sourceMappingURL=Voter.js.map

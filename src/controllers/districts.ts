@@ -10,7 +10,8 @@ const districtModels: Record<string, mongoose.Model<any>> = {
   te: te_districtmap,
   hi: hi_districtmap,
 };
-
+const containsNonTelugu = (text: string) => /[^\u0C00-\u0C7F\s.,!?()'"-]/.test(text);
+const containsNonHindi = (text: string) => /[^\u0900-\u097F\s.,!?()'"-]/.test(text);
 export const create_districts = async (
   req: Request,
   res: Response,
@@ -25,13 +26,26 @@ export const create_districts = async (
         error: 'Invalid or missing language type (en, te, hi).',
       });
     }
+
     if (!district || !districtkey) {
       return res.status(422).json({
         status: false,
         error: 'Both district and districtkey are required.',
       });
     }
+    if (type === 'te' && containsNonTelugu(district)) {
+      return res.status(422).json({
+        status: false,
+        message: 'contains non-Telugu characters'
+      });
+    }
 
+    if (type === 'hi' && containsNonHindi(district)) {
+      return res.status(22).json({
+        status: false,
+        message: 'contains non-Hindi characters',
+      });
+    }
     const Model = districtModels[type as string];
 
     const existingDistrict = await Model.findOne({
@@ -131,7 +145,19 @@ export const create_constituencies = async (
         message: 'Both constituencename and constituencykey are required.',
       });
     }
+    if (type === 'te' && containsNonTelugu(constituencename)) {
+      return res.status(422).json({
+        status: false,
+        message: 'contains non-Telugu characters'
+      });
+    }
 
+    if (type === 'hi' && containsNonHindi(constituencename)) {
+      return res.status(22).json({
+        status: false,
+        message: 'contains non-Hindi characters',
+      });
+    }
    
     const Model = districtModels[type];
     // Find the district by its ID
@@ -209,6 +235,19 @@ export const create_divisons = async (
         message: 'Both divisionname and divisionkey are required.',
       });
     }
+    if (type === 'te' && containsNonTelugu(divisionname)) {
+      return res.status(422).json({
+        status: false,
+        message: 'contains non-Telugu characters'
+      });
+    }
+
+    if (type === 'hi' && containsNonHindi(divisionname)) {
+      return res.status(22).json({
+        status: false,
+        message: 'contains non-Hindi characters',
+      });
+    }
     const Model = districtModels[type];
 
     const district = await Model.findOne({districtkey:did});
@@ -278,7 +317,19 @@ export const create_Village_Pincode = async (
         message: 'Invalid or missing language type (en, te, hi).',
       });
     }
-   
+    if (type === 'te' && containsNonTelugu(village)) {
+      return res.status(422).json({
+        status: false,
+        message: 'contains non-Telugu characters'
+      });
+    }
+
+    if (type === 'hi' && containsNonHindi(village)) {
+      return res.status(22).json({
+        status: false,
+        message: 'contains non-Hindi characters',
+      });
+    }
       const Model = districtModels[type];
       const district = await Model.findOne({districtkey:did});
       if (!district) {

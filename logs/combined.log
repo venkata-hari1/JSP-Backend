@@ -3933,3 +3933,170 @@ warn: MongoDB disconnected {"timestamp":"2025-05-12T11:22:49.445Z"}
 info: MongoDB reconnected {"timestamp":"2025-05-12T11:22:49.447Z"}
 info: Server running on port 80 {"timestamp":"2025-05-12T11:23:43.291Z"}
 info: Connected to MongoDB {"timestamp":"2025-05-12T11:23:44.201Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T12:39:55.813Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T12:40:06.119Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T12:40:46.627Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T12:40:56.915Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T13:09:48.605Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T13:09:59.023Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T13:24:27.542Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T13:24:27.545Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T13:27:56.697Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T13:27:56.914Z"}
+info: Server running on port 80 {"timestamp":"2025-05-12T13:42:56.773Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-12T13:42:58.909Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T14:20:45.757Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T14:20:45.759Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T14:20:56.200Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T14:20:56.353Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T14:27:37.161Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T14:28:05.769Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T15:57:44.144Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T15:57:54.426Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T16:47:43.113Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T16:47:43.116Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T16:47:53.285Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T16:47:53.350Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T17:03:25.303Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T17:03:25.303Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T17:03:35.516Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T17:03:35.549Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T17:29:08.246Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T17:29:31.078Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T18:10:23.616Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T18:10:33.771Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T18:25:53.570Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T18:26:03.723Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T18:26:03.728Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T18:41:23.517Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T19:27:33.559Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T19:27:33.577Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T19:43:03.359Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T19:43:03.360Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T19:43:13.532Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T19:43:13.556Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T19:56:31.648Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T19:56:31.650Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T19:56:41.812Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T19:56:41.960Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T20:12:01.592Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T20:12:01.593Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T20:27:11.694Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T20:27:11.717Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T20:42:41.493Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T20:42:41.495Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T20:42:51.643Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T20:42:51.711Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T20:58:11.442Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T20:58:11.443Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T20:58:21.940Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T20:58:21.941Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T21:13:25.752Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T21:13:35.912Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T21:28:55.709Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T21:42:21.904Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T21:42:21.907Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T21:57:41.705Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T22:12:52.267Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T22:12:52.272Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-12T22:44:01.773Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T22:44:01.774Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-12T22:59:21.540Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-13T00:06:23.706Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-13T00:06:24.752Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-13T00:21:53.642Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-13T00:21:53.642Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-13T00:37:13.431Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-13T00:37:23.613Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-13T00:37:23.614Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-13T00:52:43.394Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-13T01:07:53.510Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-13T01:07:53.515Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-13T02:42:16.897Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-13T02:42:16.904Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-13T03:08:14.370Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-13T03:08:24.374Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-13T03:54:04.376Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-13T03:54:04.377Z"}
+info: Server running on port 80 {"timestamp":"2025-05-14T10:07:32.001Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-14T10:07:35.072Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-14T10:45:55.160Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-14T10:46:07.144Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-14T10:47:56.895Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-14T12:32:39.189Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-14T12:32:39.269Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-14T12:46:05.931Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-14T13:05:13.845Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-14T14:13:24.765Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-14T14:13:24.768Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-14T14:13:35.032Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-14T14:13:35.054Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T00:58:11.759Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T00:58:14.213Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T00:58:26.924Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T00:58:27.685Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T00:58:33.452Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T00:58:34.294Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T00:58:38.798Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T00:58:39.613Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T00:58:42.000Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T00:58:42.796Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T01:00:37.046Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:00:38.291Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T01:01:59.398Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:02:00.662Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T01:02:56.066Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:02:57.110Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T01:03:15.925Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:03:16.733Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T01:03:20.342Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:03:21.281Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T01:03:26.282Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:03:27.172Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T01:03:29.386Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:03:30.333Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T01:03:42.736Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:03:43.549Z"}
+info: Server running on port 80 {"timestamp":"2025-05-15T01:03:46.275Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:03:47.097Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:05:03.573Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:05:04.678Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:07:16.561Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:07:17.735Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:07:47.818Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:07:48.715Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:08:15.243Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:08:16.359Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:09:21.468Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:09:22.726Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:09:28.910Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:09:29.825Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:11:41.702Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:11:43.126Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:13:14.655Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:13:15.744Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:13:21.717Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:13:22.451Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:13:28.182Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:13:29.042Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:17:32.111Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:17:34.763Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:17:35.538Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:19:13.536Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:19:14.988Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:19:21.087Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:19:22.250Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:19:58.924Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:19:59.863Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:20:15.964Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:20:18.838Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:20:20.048Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:20:38.596Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:20:41.222Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:20:42.241Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:21:09.588Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:21:10.902Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:21:20.447Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:21:21.194Z"}
+info: Server running on port 8080 {"timestamp":"2025-05-15T01:21:46.796Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-15T01:21:47.692Z"}

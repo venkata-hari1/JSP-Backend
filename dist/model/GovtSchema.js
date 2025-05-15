@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importDefault(require("mongoose"));
 const Scheme = new mongoose_1.default.Schema({
     scheme: { type: String, required: true },
+    key: { type: String, required: true }
 });
 const GovernmentSchemes = new mongoose_1.default.Schema({
     english: [Scheme],

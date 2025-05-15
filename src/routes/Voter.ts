@@ -11,6 +11,4 @@ router.get('/janasena',controller.GetSchemesVisionMission)
 router.get('/admin/janasena',controller.GetSchemesVisionMission)
 router.patch('/admin/scheme/:id',controller.Update_Schema)
 router.patch('/admin/deletescheme/:pid/:cid',controller.deleteScheme)
-router.post('/admin/mapdistricts',controller.mapDistricts1)
-router.get('/admin/mapdistricts',controller.mapDistricts)
 export default router

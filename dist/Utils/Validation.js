@@ -12,7 +12,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Validate = void 0;
+exports.isHindiText = exports.isTeluguText = exports.Validate = void 0;
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const AuthSchema_1 = __importDefault(require("../model/AuthSchema"));
 const Validate = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
@@ -34,4 +34,13 @@ const Validate = (req, res, next) => __awaiter(void 0, void 0, void 0, function*
     }
 });
 exports.Validate = Validate;
+const isTeluguText = (text) => {
+    // This regex ensures all characters are Telugu (with optional whitespace and punctuation)
+    return /^[\u0C00-\u0C7F\s.,!?()'"-]+$/.test(text);
+};
+exports.isTeluguText = isTeluguText;
+const isHindiText = (text) => {
+    return /^[\u0900-\u097F\s.,!?()'"-]+$/.test(text);
+};
+exports.isHindiText = isHindiText;
 //# sourceMappingURL=Validation.js.map

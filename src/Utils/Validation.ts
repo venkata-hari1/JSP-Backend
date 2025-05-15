@@ -24,6 +24,11 @@ export const Validate=async(req: CustomRequest, res: express.Response, next: Nex
         next(err)
     }
 }
-
-
+export const isTeluguText = (text: string) => {
+    // This regex ensures all characters are Telugu (with optional whitespace and punctuation)
+    return /^[\u0C00-\u0C7F\s.,!?()'"-]+$/.test(text);
+  };
+export const isHindiText = (text: string) => {
+    return /^[\u0900-\u097F\s.,!?()'"-]+$/.test(text);
+  };
 
