@@ -47,7 +47,7 @@ const create_districts = (req, res, next) => __awaiter(void 0, void 0, void 0, f
             });
         }
         if (type === 'hi' && containsNonHindi(district)) {
-            return res.status(22).json({
+            return res.status(422).json({
                 status: false,
                 message: 'contains non-Hindi characters',
             });
@@ -148,7 +148,7 @@ const create_constituencies = (req, res, next) => __awaiter(void 0, void 0, void
             });
         }
         if (type === 'hi' && containsNonHindi(constituencename)) {
-            return res.status(22).json({
+            return res.status(422).json({
                 status: false,
                 message: 'contains non-Hindi characters',
             });
@@ -225,7 +225,7 @@ const create_divisons = (req, res, next) => __awaiter(void 0, void 0, void 0, fu
             });
         }
         if (type === 'hi' && containsNonHindi(divisionname)) {
-            return res.status(22).json({
+            return res.status(422).json({
                 status: false,
                 message: 'contains non-Hindi characters',
             });
@@ -295,7 +295,7 @@ const create_Village_Pincode = (req, res, next) => __awaiter(void 0, void 0, voi
             });
         }
         if (type === 'hi' && containsNonHindi(village)) {
-            return res.status(22).json({
+            return res.status(422).json({
                 status: false,
                 message: 'contains non-Hindi characters',
             });
