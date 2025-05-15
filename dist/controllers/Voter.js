@@ -126,7 +126,7 @@ exports.Janasena_Vision = Janasena_Vision;
 const Government_Schemes = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { type } = req.query;
-        const { scheme, key } = req.body;
+        const { scheme } = req.body;
         if (!type || typeof type !== "string") {
             return res.status(422).json({ status: false, message: 'Type is required' });
         }
@@ -135,7 +135,7 @@ const Government_Schemes = (req, res, next) => __awaiter(void 0, void 0, void 0,
         if (!validTypes.includes(lang)) {
             return res.status(422).json({ status: false, message: 'Invalid language type' });
         }
-        if (!scheme || !key) {
+        if (!scheme) {
             return res.status(422).json({ status: false, message: 'Scheme  and key both are required' });
         }
         const containsNonTelugu = (text) => /[^\u0C00-\u0C7F\s.,!?()'"-]/.test(text);
@@ -167,11 +167,11 @@ const Government_Schemes = (req, res, next) => __awaiter(void 0, void 0, void 0,
         }
         const updateField = {};
         if (lang === 'en')
-            updateField['english'] = { scheme: scheme, key: scheme };
+            updateField['english'] = { scheme: scheme };
         if (lang === 'hi')
-            updateField['hindi'] = { scheme: scheme, key: scheme };
+            updateField['hindi'] = { scheme: scheme };
         if (lang === 'te')
-            updateField['telugu'] = { scheme: scheme, key: scheme };
+            updateField['telugu'] = { scheme: scheme };
         const updated = yield GovtSchema_1.default.findOneAndUpdate({}, { $push: updateField }, { upsert: true, new: true });
         return res.status(200).json({ status: true, data: updateField });
     }

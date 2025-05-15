@@ -117,7 +117,7 @@ export const Janasena_Vision = async (req: Request, res: Response, next: NextFun
 export const Government_Schemes = async (req: Request, res: Response, next: NextFunction):PromiseType => {
   try {
     const { type } = req.query;
-    const { scheme ,key} = req.body;
+    const { scheme} = req.body;
 
     if (!type || typeof type !== "string") {
       return res.status(422).json({ status: false, message: 'Type is required' });
@@ -131,7 +131,7 @@ export const Government_Schemes = async (req: Request, res: Response, next: Next
       return res.status(422).json({ status: false, message: 'Invalid language type' });
     }
 
-    if (!scheme || !key) {
+    if (!scheme) {
       return res.status(422).json({ status: false, message: 'Scheme  and key both are required' });
     }
     const containsNonTelugu = (text: string) => /[^\u0C00-\u0C7F\s.,!?()'"-]/.test(text);
@@ -165,9 +165,9 @@ export const Government_Schemes = async (req: Request, res: Response, next: Next
     }
 
     const updateField: any = {};
-    if (lang === 'en') updateField['english'] = { scheme:scheme,key:scheme };
-    if (lang === 'hi') updateField['hindi'] = { scheme:scheme,key:scheme };
-    if (lang === 'te') updateField['telugu'] = {scheme:scheme,key:scheme  };
+    if (lang === 'en') updateField['english'] = { scheme:scheme };
+    if (lang === 'hi') updateField['hindi'] = { scheme:scheme};
+    if (lang === 'te') updateField['telugu'] = {scheme:scheme };
 
     const updated = await GovernmentSchemes.findOneAndUpdate(
       {},
