@@ -9,7 +9,6 @@ const dotenv_1 = __importDefault(require("dotenv"));
 const Main_1 = __importDefault(require("./routes/Main"));
 const db_1 = require("./connect/db");
 const cors_1 = __importDefault(require("cors"));
-const express_mongo_sanitize_1 = __importDefault(require("express-mongo-sanitize"));
 const helmet_1 = __importDefault(require("helmet"));
 dotenv_1.default.config();
 const PORT = process.env.PORT || 80;
@@ -19,7 +18,6 @@ const MONGO_URL = process.env.MONGOURL || '';
 app.use(express_1.default.json());
 app.use(express_1.default.urlencoded({ extended: true }));
 app.use((0, cors_1.default)());
-app.use((0, express_mongo_sanitize_1.default)());
 app.use((0, helmet_1.default)());
 app.use('/api', Main_1.default);
 // 404 Handler

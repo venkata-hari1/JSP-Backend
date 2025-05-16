@@ -4156,3 +4156,24 @@ info: MongoDB reconnected {"timestamp":"2025-05-15T06:24:22.726Z"}
 warn: MongoDB disconnected {"timestamp":"2025-05-15T06:24:33.455Z"}
 info: MongoDB reconnected {"timestamp":"2025-05-15T06:24:33.672Z"}
 info: MongoDB reconnected {"timestamp":"2025-05-15T06:28:04.228Z"}
+info: Server running on port 80 {"timestamp":"2025-05-16T11:36:30.431Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-16T11:36:30.436Z"}
+error: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rebc4ph.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2025-05-16T11:36:30.436Z"}
+error: Failed to connect to MongoDB: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rebc4ph.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2025-05-16T11:36:30.437Z"}
+error: MongoDB connection error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.rebc4ph.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.rebc4ph.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2025-05-16T11:36:30.437Z"}
+info: Server running on port 80 {"timestamp":"2025-05-16T12:06:18.428Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-16T12:06:19.828Z"}
+info: Server running on port 80 {"timestamp":"2025-05-16T12:09:01.922Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-16T12:09:02.967Z"}
+info: Server running on port 80 {"timestamp":"2025-05-16T12:09:21.165Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-16T12:09:22.318Z"}
+info: Server running on port 80 {"timestamp":"2025-05-16T12:10:51.581Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-16T12:10:52.821Z"}
+info: Server running on port 80 {"timestamp":"2025-05-16T12:11:29.543Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-16T12:11:30.378Z"}
+info: Server running on port 80 {"timestamp":"2025-05-16T12:11:34.743Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-16T12:11:35.698Z"}
+info: Server running on port 80 {"timestamp":"2025-05-16T12:12:58.672Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-16T12:12:59.735Z"}
+info: Server running on port 80 {"timestamp":"2025-05-16T12:13:06.808Z"}
+info: Connected to MongoDB {"timestamp":"2025-05-16T12:13:07.720Z"}
