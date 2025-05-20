@@ -38,7 +38,7 @@ export const Voters = async (req: Request, res: Response, next: NextFunction): P
 
     const [data, total] = await Promise.all([
       Voter.find(filter)
-        .select('district membersInFamily adultsArray adults name mobile') 
+        .select('district membersInFamily adultsArray adults name mobile noOfVotersInFamily totalMembersInFamily') 
         .skip(skip)
         .limit(limit)
         .sort({ [sortField]: sortOrder }),

@@ -50,6 +50,8 @@ const FormSchema = new mongoose_1.Schema({ name: { type: String, trim: true },
     pincode: { type: String },
     adults: { male: { type: Number, min: 0, default: 0 },
         female: { type: Number, min: 0, default: 0 }, },
+    noOfVotersInFamily: { type: Number, default: 0 },
+    totalMembersInFamily: { type: Number, default: 0 },
     adultsArray: {
         males: [{
                 name: {

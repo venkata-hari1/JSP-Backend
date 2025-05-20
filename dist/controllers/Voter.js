@@ -46,7 +46,7 @@ const Voters = (req, res, next) => __awaiter(void 0, void 0, void 0, function* (
         }
         const [data, total] = yield Promise.all([
             Voter_1.default.find(filter)
-                .select('district membersInFamily adultsArray adults name mobile')
+                .select('district membersInFamily adultsArray adults name mobile noOfVotersInFamily totalMembersInFamily')
                 .skip(skip)
                 .limit(limit)
                 .sort({ [sortField]: sortOrder }),

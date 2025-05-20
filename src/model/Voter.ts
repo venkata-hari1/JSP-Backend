@@ -1,5 +1,7 @@
 import mongoose, { Schema } from 'mongoose';
 type IForm = {
+  noOfVotersInFamily: number;
+  totalMembersInFamily: number;
   name: string;
   gender: string;
   mobile: number | null;
@@ -36,7 +38,7 @@ type IForm = {
     rythuBandhu: string;
     ration: string;
     tidcoHouses: string;
-    nogovtSchemes:string
+    nogovtSchemes:string;
   };
   issues: string;
 }
@@ -58,6 +60,8 @@ const FormSchema: Schema = new Schema(
     pincode: {type: String},
     adults: {male: {type: Number,min: 0,default: 0},
     female: {type: Number,min:0,default: 0},},
+    noOfVotersInFamily: {type:Number,default:0},
+    totalMembersInFamily: {type:Number,default:0},
     adultsArray: {
       males: [{
           name: {
