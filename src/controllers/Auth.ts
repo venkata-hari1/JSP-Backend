@@ -4,6 +4,7 @@ import AuthSchema, { IProps } from '../model/AuthSchema'
 import mongoose from 'mongoose'
 import bcrypt from 'bcryptjs'
 import { NodeType, PromiseType } from '../Utils/Type'
+import ProfileImage from '../model/ProfileImage'
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const passwordRegex =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/;
@@ -83,7 +84,7 @@ export const login = async (req: Request<IProps>, res: Response, next: NextFunct
                 id: exist._id
             }
         }
-        AuthSchema.findByIdAndUpdate({_id:exist._id},{$set:{isAdmin:true}},{new:true})
+        await AuthSchema.findByIdAndUpdate({_id:exist._id},{$set:{isAdmin:true}},{new:true})
         jwt.sign(payload, process.env.JWT_SECRET as string, { expiresIn: '10d' }, (err, token) => {
             if (err) {
                 return res.status(401).json({ status: false, message: 'Token generation falied' })
@@ -100,8 +101,14 @@ export const EditUser = async (req:Request<IProps > | NodeType, res: Response, n
     const session = await mongoose.startSession();
     session.startTransaction();
     try {
-      const { email, password,admin,mobile } = req.body;
-  
+      const { email, password,admin,mobile,name } = req.body;
+      if(name){
+        if(name.length<3){
+          await session.abortTransaction();
+          session.endSession();
+          return res.status(422).json({status:false,message:'Name must be at least 3 characters'})
+        }
+      }
       if (email && !emailRegex.test(email)) {
         await session.abortTransaction();
         session.endSession();
@@ -126,14 +133,14 @@ export const EditUser = async (req:Request<IProps > | NodeType, res: Response, n
         });
       }
   
-      const user = await AuthSchema.findById(req.user.id).select('admin email').session(session);
+      const user = await AuthSchema.findById(req.user.id).select('name admin email').session(session);
   
       if (!user) {
         await session.abortTransaction();
         session.endSession();
         return res.status(404).json({ status: false, message: 'User not found' });
       }
-  
+      if (name) user.name = name;
       if (email) user.email = email;
       if(admin) user.admin=admin;
       if (password) {
@@ -155,8 +162,9 @@ export const EditUser = async (req:Request<IProps > | NodeType, res: Response, n
   };
 export const getUser=async(req:NodeType,res:Response,next:NextFunction)=>{
 try{
-  const data=await AuthSchema.findById(req.user.id).select('admin email password mobile')
+  const data=await AuthSchema.findById(req.user.id).select('name admin email password mobile')
   res.status(200).json({status:true,data})
+  return
 
 }
 catch(err){

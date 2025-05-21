@@ -6,5 +6,10 @@ const router=express.Router()
 const upload = multer({ storage: multer.memoryStorage() });
 router.post('/uploadimage',Validate ,upload.single('file'),controller.uploadImage)
 router.get('/fetchimages',controller.getImages)
-router.delete('/deleteimage/:public_id',Validate ,controller.deleteImage)
+router.delete('/deleteimage/:id',Validate ,controller.deleteImage)
+
+
+router.post('/uploadprofle',Validate ,upload.single('file'),controller.UploadPrfoile)
+router.get('/getProfile',Validate,controller.ProfileImage)
+router.delete('/deleteProfile/:id',Validate ,controller.deleteProfile)
 export default router
