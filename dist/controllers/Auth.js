@@ -85,7 +85,7 @@ const login = (req, res, next) => __awaiter(void 0, void 0, void 0, function* ()
                 id: exist._id
             }
         };
-        AuthSchema_1.default.findByIdAndUpdate({ _id: exist._id }, { $set: { isAdmin: true } }, { new: true });
+        yield AuthSchema_1.default.findByIdAndUpdate({ _id: exist._id }, { $set: { isAdmin: true } }, { new: true });
         jsonwebtoken_1.default.sign(payload, process.env.JWT_SECRET, { expiresIn: '10d' }, (err, token) => {
             if (err) {
                 return res.status(401).json({ status: false, message: 'Token generation falied' });
@@ -102,7 +102,14 @@ const EditUser = (req, res, next) => __awaiter(void 0, void 0, void 0, function*
     const session = yield mongoose_1.default.startSession();
     session.startTransaction();
     try {
-        const { email, password, admin, mobile } = req.body;
+        const { email, password, admin, mobile, name } = req.body;
+        if (name) {
+            if (name.length < 3) {
+                yield session.abortTransaction();
+                session.endSession();
+                return res.status(422).json({ status: false, message: 'Name must be at least 3 characters' });
+            }
+        }
         if (email && !emailRegex.test(email)) {
             yield session.abortTransaction();
             session.endSession();
@@ -124,12 +131,14 @@ const EditUser = (req, res, next) => __awaiter(void 0, void 0, void 0, function*
                 message: 'Invalid Indian mobile number. It must be 10 digits starting with 6-9.',
             });
         }
-        const user = yield AuthSchema_1.default.findById(req.user.id).select('admin email').session(session);
+        const user = yield AuthSchema_1.default.findById(req.user.id).select('name admin email').session(session);
         if (!user) {
             yield session.abortTransaction();
             session.endSession();
             return res.status(404).json({ status: false, message: 'User not found' });
         }
+        if (name)
+            user.name = name;
         if (email)
             user.email = email;
         if (admin)
@@ -154,8 +163,9 @@ const EditUser = (req, res, next) => __awaiter(void 0, void 0, void 0, function*
 exports.EditUser = EditUser;
 const getUser = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const data = yield AuthSchema_1.default.findById(req.user.id).select('admin email password mobile');
+        const data = yield AuthSchema_1.default.findById(req.user.id).select('name admin email password mobile');
         res.status(200).json({ status: true, data });
+        return;
     }
     catch (err) {
         next(err);

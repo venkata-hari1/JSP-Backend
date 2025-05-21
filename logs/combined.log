@@ -4496,3 +4496,5 @@ info: Server running on port 80 {"timestamp":"2025-05-21T06:12:49.620Z"}
 info: Connected to MongoDB {"timestamp":"2025-05-21T06:12:50.517Z"}
 info: MongoDB reconnected {"timestamp":"2025-05-21T06:23:31.089Z"}
 info: MongoDB reconnected {"timestamp":"2025-05-21T06:23:31.118Z"}
+warn: MongoDB disconnected {"timestamp":"2025-05-21T06:26:51.732Z"}
+info: MongoDB reconnected {"timestamp":"2025-05-21T06:26:51.906Z"}

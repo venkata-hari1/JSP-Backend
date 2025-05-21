@@ -44,6 +44,9 @@ const router = express_1.default.Router();
 const upload = (0, multer_1.default)({ storage: multer_1.default.memoryStorage() });
 router.post('/uploadimage', Validation_1.Validate, upload.single('file'), controller.uploadImage);
 router.get('/fetchimages', controller.getImages);
-router.delete('/deleteimage/:public_id', Validation_1.Validate, controller.deleteImage);
+router.delete('/deleteimage/:id', Validation_1.Validate, controller.deleteImage);
+router.post('/uploadprofle', Validation_1.Validate, upload.single('file'), controller.UploadPrfoile);
+router.get('/getProfile', Validation_1.Validate, controller.ProfileImage);
+router.delete('/deleteProfile/:id', Validation_1.Validate, controller.deleteProfile);
 exports.default = router;
 //# sourceMappingURL=Images.js.map
